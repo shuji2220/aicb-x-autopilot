@@ -1,13 +1,28 @@
 {
-  "telegram": { "last_update_id": 0 },
-  "pending": null,
+  "telegram": {
+    "last_update_id": 853548733
+  },
+  "pending": {
+    "id": "2026-02-24",
+    "status": "posting",
+    "draft_text": "テスト下書き",
+    "created_at": "2026-02-24T08:00:00Z",
+    "revision": 0
+  },
   "history": [],
   "policy": {
     "brand": "AI Contents Bank",
     "cta_url": "https://www.ba-concierge.com/ai-contents-bank/",
     "hashtags_max": 2,
     "length_hint": "全角200〜320字",
-    "banned_phrases": ["絶対", "100%", "確実", "永久", "最強", "誰でも稼げる"]
+    "banned_phrases": [
+      "絶対",
+      "100%",
+      "確実",
+      "永久",
+      "最強",
+      "誰でも稼げる"
+    ]
   },
   "strategy": {
     "category_counts": {
