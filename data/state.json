@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548767
+    "last_update_id": 853548768
   },
-  "pending": {
-    "id": "2026-03-01",
-    "status": "pending",
-    "draft_text": "ライターの武器は『良いプロンプト』になりはじめている。\n執筆スピードを上げるAIプロンプト、取材の質を高めるプロンプト、企画を広げるプロンプト。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-    "created_at": "2026-03-01T13:55:30.268Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-03-01",
+      "posted_at": "2026-03-01T14:05:59.363Z",
+      "tweet_id": "2028109497160642890",
+      "text": "ライターの武器は『良いプロンプト』になりはじめている。\n執筆スピードを上げるAIプロンプト、取材の質を高めるプロンプト、企画を広げるプロンプト。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
     {
       "id": "2026-03-01",
       "posted_at": "2026-03-01T12:58:22.180Z",
