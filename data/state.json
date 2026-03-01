@@ -1,20 +1,36 @@
 {
   "telegram": {
-    "last_update_id": 853548733
+    "last_update_id": 853548767
   },
-  "pending": {
-    "id": "2026-02-24",
-    "status": "posting",
-    "draft_text": "テスト下書き",
-    "created_at": "2026-02-24T08:00:00Z",
-    "revision": 0
-  },
-  "history": [],
+  "pending": null,
+  "history": [
+    {
+      "id": "2026-03-01",
+      "posted_at": "2026-03-01T12:58:22.180Z",
+      "tweet_id": "2028092479745184189",
+      "text": "フォント選びで迷ったら、AIに「和風モダン×可読性重視」と条件を渡すだけ。\n合う書体5選が秒で出る。\nコンセプト説明もセットだから、クライアントへの提案根拠も整う。\n試行錯誤の時間が一気に短縮できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
+    {
+      "id": "2026-02-28",
+      "posted_at": "2026-02-28T10:15:53.135Z",
+      "tweet_id": "2027689201861603671",
+      "text": "取材記事の構成案出しにAIを使ったら、従来3時間かかった部分が1時間に短縮された。事実ベースの箇所はAIに任せて、自分は取材ニュアンスや独自解釈に集中できるように。結果、月20本→月35本の納品に増やせた。\n\nライターの強みは「人間にしか書けない部分」。その部分を最…\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
+    {
+      "id": "2026-02-28",
+      "posted_at": "2026-02-28T09:55:02.594Z",
+      "tweet_id": "2027683956506956083",
+      "text": "デザインの配色選びで迷った時、AIに「落ち着いた高級感のある配色3パターン」と指示するだけで候補が数秒で揃う。色コードも出るから、そのままツールに入力できる。試行錯誤の時間が大きく減る。クライアント提案の選択肢も増やしやすい。\n\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    }
+  ],
   "policy": {
     "brand": "AI Contents Bank",
     "cta_url": "https://www.ba-concierge.com/ai-contents-bank/",
     "hashtags_max": 2,
-    "length_hint": "全角200〜320字",
+    "length_hint": "100字まで",
     "banned_phrases": [
       "絶対",
       "100%",
@@ -26,12 +42,12 @@
   },
   "strategy": {
     "category_counts": {
-      "usecase": 0,
-      "success": 0,
-      "prompt": 0,
+      "usecase": 4,
+      "success": 3,
+      "prompt": 2,
       "vision": 0,
       "devlog": 0
     },
-    "target_index": 0
+    "target_index": 4
   }
 }

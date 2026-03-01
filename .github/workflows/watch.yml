@@ -1,0 +1,66 @@
+name: Watch Telegram
+
+on:
+  workflow_run:
+    workflows: ["Generate Draft"]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: state-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Poll Telegram (max 1 hour, 10 min interval)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_MODEL: ${{ secrets.ANTHROPIC_MODEL }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: |
+          for i in 1 2 3 4 5 6; do
+            echo "=== Iteration $i/6 ==="
+            npm run watch
+
+            # Check if pending was resolved
+            PENDING=$(node -e "const s=require('./data/state.json'); console.log(s.pending?.status ?? 'null')")
+            echo "pending status: $PENDING"
+            if [ "$PENDING" = "null" ] || [ "$PENDING" != "pending" ]; then
+              echo "Pending resolved. Exiting loop."
+              break
+            fi
+
+            if [ "$i" -lt 6 ]; then
+              echo "Waiting 10 minutes..."
+              sleep 600
+            fi
+          done
+
+      - name: Commit state changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/state.json
+          git diff --staged --quiet || (git commit -m "chore: update state [skip ci]" && git push)
