@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548767
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-01",
+    "status": "pending",
+    "draft_text": "ライターの武器は『良いプロンプト』になりはじめている。\n執筆スピードを上げるAIプロンプト、取材の質を高めるプロンプト、企画を広げるプロンプト。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+    "created_at": "2026-03-01T13:55:30.268Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-01",
@@ -45,9 +51,9 @@
       "usecase": 4,
       "success": 3,
       "prompt": 2,
-      "vision": 0,
+      "vision": 1,
       "devlog": 0
     },
-    "target_index": 4
+    "target_index": 0
   }
 }
