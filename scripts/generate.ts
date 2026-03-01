@@ -4,6 +4,8 @@ import { sendTelegramMessage } from "./telegram";
 import { readState, writeState } from "./state";
 import { callClaudeJson } from "./claude";
 import { buildDraftSystem, buildDraftUser, TARGETS, Category } from "./prompts";
+import { shortenTweet } from "./x_text";
+import { buildPerformanceSummary } from "./analyze";
 
 function mustGetEnv(key: string): string {
   const v = process.env[key];
@@ -58,12 +60,15 @@ async function main() {
   const target = TARGETS[state.strategy.target_index % TARGETS.length];
 
   const recentPosts = state.history
-    .slice(-5)
-    .map((h: any) =>
-      String(h.draft_text ?? "")
+    .slice(0, 5)
+    .map((h) =>
+      String(h.text ?? "")
         .replace(/\s+/g, " ")
         .slice(0, 120)
     );
+
+  // 成績フィードバック（メトリクスがあれば注入）
+  const performanceSummary = buildPerformanceSummary(state.history);
 
   const system = buildDraftSystem({
     brand: state.policy.brand,
@@ -78,6 +83,7 @@ async function main() {
     target,
     recentPosts,
     ctaUrl: state.policy.cta_url,
+    performanceSummary,
   });
 
   const out = await callClaudeJson({
@@ -88,8 +94,11 @@ async function main() {
     maxTokens: 900,
   });
 
-  const draftText = String(out?.draft_text ?? "").trim();
-  if (!draftText) throw new Error("Claude output missing draft_text");
+  const rawDraft = String(out?.draft_text ?? "").trim();
+  if (!rawDraft) throw new Error("Claude output missing draft_text");
+
+  // Normalize and auto-shorten if over 280 weight
+  const { text: draftText, shortened, originalWeight, finalWeight } = shortenTweet(rawDraft);
 
   state.pending = {
     id: todayId,
@@ -106,13 +115,18 @@ async function main() {
 
   writeState(state);
 
+  const weightInfo = shortened
+    ? `⚠️ 自動短縮: ${originalWeight}→${finalWeight} weight\n`
+    : `✅ ${finalWeight} weight\n`;
+
   await sendTelegramMessage({
     botToken,
     chatId,
     text:
       `📝【下書き】ID: ${todayId}\n` +
       `カテゴリ: ${category}\n` +
-      `ターゲット: ${target}\n\n` +
+      `ターゲット: ${target}\n` +
+      weightInfo + `\n` +
       `${draftText}\n\n` +
       `操作:\n` +
       `- 承認: /approve ${todayId}\n` +
