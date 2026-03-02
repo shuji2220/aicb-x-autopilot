@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548768
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-02",
+    "status": "pending",
+    "draft_text": "APIドキュメント作成、仕様決めから実装まで丸1日かかっていた。\nOpenAIに「RESTful設計の原則＋うちのビジネスロジック」を渡したら、レスポンス構造案が30分で出た。\nエンジニアは細部の調整と例外処理だけに集中できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+    "created_at": "2026-03-02T08:14:45.544Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-01",
@@ -53,8 +59,8 @@
       "success": 3,
       "prompt": 2,
       "vision": 1,
-      "devlog": 0
+      "devlog": 1
     },
-    "target_index": 0
+    "target_index": 1
   }
 }
