@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548769
+    "last_update_id": 853548770
   },
-  "pending": {
-    "id": "2026-03-03",
-    "status": "pending",
-    "draft_text": "経営判断の資料作成、従来は1週間かかっていた。\nAIに「市場動向＋自社データ＋競合分析」を渡すと、3日で初期レポートが完成する。\n経営者は数字と仮説から戦略立案に専念できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-    "created_at": "2026-03-03T08:13:13.070Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-03-03",
+      "posted_at": "2026-03-03T08:23:37.666Z",
+      "tweet_id": "2028748114836832445",
+      "text": "経営判断の資料作成、従来は1週間かかっていた。\nAIに「市場動向＋自社データ＋競合分析」を渡すと、3日で初期レポートが完成する。\n経営者は数字と仮説から戦略立案に専念できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
     {
       "id": "2026-03-02",
       "posted_at": "2026-03-02T08:15:04.603Z",
