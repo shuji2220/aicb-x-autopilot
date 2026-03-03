@@ -9,14 +9,30 @@
       "posted_at": "2026-03-02T08:15:04.603Z",
       "tweet_id": "2028383574869639552",
       "text": "APIドキュメント作成、仕様決めから実装まで丸1日かかっていた。\nOpenAIに「RESTful設計の原則＋うちのビジネスロジック」を渡したら、レスポンス構造案が30分で出た。\nエンジニアは細部の調整と例外処理だけに集中できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 56,
+        "quote_count": 0,
+        "fetched_at": "2026-03-03T06:18:34.946Z"
+      }
     },
     {
       "id": "2026-03-01",
       "posted_at": "2026-03-01T14:05:59.363Z",
       "tweet_id": "2028109497160642890",
       "text": "ライターの武器は『良いプロンプト』になりはじめている。\n執筆スピードを上げるAIプロンプト、取材の質を高めるプロンプト、企画を広げるプロンプト。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 50,
+        "quote_count": 0,
+        "fetched_at": "2026-03-03T06:18:34.946Z"
+      }
     },
     {
       "id": "2026-03-01",
