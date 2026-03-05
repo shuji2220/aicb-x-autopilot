@@ -42,6 +42,14 @@ export type State = {
     category_counts: Record<string, number>;
     target_index: number;
   };
+  analysis_insight?: {
+    updated_at: string;
+    best_post_type: string;
+    best_post_time_hint: string;
+    trend_keywords: string[];
+    recommendations: string[];
+    raw?: unknown;
+  };
 };
 
 const STATE_PATH = path.join(process.cwd(), "data", "state.json");
