@@ -9,14 +9,30 @@
       "posted_at": "2026-03-04T08:21:57.511Z",
       "tweet_id": "2029110082596987382",
       "text": "テスト環境の構築、手作業だと丸2日かかっていた。\nAIに「Docker設定＋DBスキーマ＋既存プロジェクト構造」を渡したら、Compose定義が1時間で完成した。\nエンジニアは本来やるべきテストケース設計と実装検証に戻れた。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 51,
+        "quote_count": 0,
+        "fetched_at": "2026-03-05T06:18:51.633Z"
+      }
     },
     {
       "id": "2026-03-03",
       "posted_at": "2026-03-03T08:23:37.666Z",
       "tweet_id": "2028748114836832445",
       "text": "経営判断の資料作成、従来は1週間かかっていた。\nAIに「市場動向＋自社データ＋競合分析」を渡すと、3日で初期レポートが完成する。\n経営者は数字と仮説から戦略立案に専念できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 73,
+        "quote_count": 0,
+        "fetched_at": "2026-03-05T06:18:51.633Z"
+      }
     },
     {
       "id": "2026-03-02",
@@ -28,9 +44,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 56,
+        "impression_count": 89,
         "quote_count": 0,
-        "fetched_at": "2026-03-03T06:18:34.946Z"
+        "fetched_at": "2026-03-05T06:18:51.633Z"
       }
     },
     {
@@ -43,9 +59,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 50,
+        "impression_count": 59,
         "quote_count": 0,
-        "fetched_at": "2026-03-03T06:18:34.946Z"
+        "fetched_at": "2026-03-05T06:18:51.633Z"
       }
     },
     {
