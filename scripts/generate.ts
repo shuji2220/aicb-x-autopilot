@@ -70,6 +70,16 @@ async function main() {
   // 成績フィードバック（メトリクスがあれば注入）
   const performanceSummary = buildPerformanceSummary(state.history);
 
+  // analysis_insightがあれば追加のコンテキストとしてbuildDraftUserに渡す
+  const analysisInsight = state.analysis_insight
+    ? [
+        `直近のAI分析インサイト:`,
+        `- ベスト投稿タイプ: ${state.analysis_insight.best_post_type}`,
+        `- 推奨キーワード: ${state.analysis_insight.trend_keywords.join(", ")}`,
+        `- 提言: ${state.analysis_insight.recommendations.slice(0, 2).join(" / ")}`,
+      ].join("\n")
+    : null;
+
   const system = buildDraftSystem({
     brand: state.policy.brand,
     ctaUrl: state.policy.cta_url,
@@ -84,6 +94,7 @@ async function main() {
     recentPosts,
     ctaUrl: state.policy.cta_url,
     performanceSummary,
+    analysisInsight,
   });
 
   const out = await callClaudeJson({

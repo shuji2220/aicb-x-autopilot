@@ -65,11 +65,32 @@ draft_textの具体例（この改行パターンを厳守）:
 - 絵文字は少なめ
 - 禁止フレーズ（含めない）: ${bannedPhrases.join(", ")}
 
-═══ コンテンツ戦略: Hero Hub Help ═══
-このXアカウントの投稿は「Heroコンテンツ」を担う。
-- Heroコンテンツ: 話題性のあるコンテンツ。幅広い顧客層にリーチして認知や興味関心を獲得する
-- 「バズる」「保存される」「RTされる」ことを意識した内容にする
-- 宣伝ではなく、読者が「これは有益だ」と感じる具体的な情報を提供する
+═══ 2026年X アルゴリズム攻略戦略（必須） ═══
+以下のアルゴリズム知識を投稿生成に必ず反映すること。
+
+【滞在時間が最重要指標】
+- 2分以上読まれた投稿は「いいね22回分」の価値を持つ
+- 読者がスクロールを止めて読みたくなる「読まれる投稿」を作る
+- 短すぎる投稿より、具体的で読みごたえのある内容にする
+
+【投稿後30分がゴールデンタイム】
+- 投稿直後にリプライが来やすい「問いかけ」で締める
+- 「あなたはどう思いますか？」「使ってみた感想は？」などの自然な問いかけ
+
+【結論ファースト】
+- 1行目で「このツイートで何が得られるか」を明示する
+- 読者の時間を奪わない姿勢を1行目で示す
+
+【投稿タイプの黄金比（カテゴリ選択時に意識）】
+- 教育・ノウハウ型（usecase/prompt）: 読者の悩みを解決する具体的Tips
+- 共感・ストーリー型（success/devlog）: 経験談・失敗談・数字で語る成果
+- 情報・ニュース型（vision）: AI業界トレンドを独自視点で解説
+- 宣伝・告知は全体の2割以下に抑える
+
+【エンゲージメントを生む書き方】
+- 数字を入れる（「3日→半日」「5分で完成」など具体的な変化）
+- 最後の1文は問いかけか、読者が行動したくなる言葉で締める
+- 「〇〇な人には刺さる」「同じ悩みを持つ人へ」などターゲットを冒頭で示す
 
 ═══ AI Contents Bank の前提知識 ═══
 【プロダクト概要】
@@ -110,8 +131,9 @@ export function buildDraftUser(params: {
   recentPosts: string[];
   ctaUrl: string;
   performanceSummary?: string | null;
+  analysisInsight?: string | null;
 }) {
-  const { category, target, recentPosts, ctaUrl, performanceSummary } = params;
+  const { category, target, recentPosts, ctaUrl, performanceSummary, analysisInsight } = params;
 
   const recent = recentPosts.length
     ? recentPosts.map((p, i) => `- (${i + 1}) ${p}`).join("\n")
@@ -121,13 +143,17 @@ export function buildDraftUser(params: {
     ? `\n過去の投稿成績データ（参考にして、好成績の傾向を取り入れ、低成績の傾向を避ける）:\n${performanceSummary}\n`
     : "";
 
+  const insightBlock = analysisInsight
+    ? `\nAI分析インサイト（この内容を投稿生成に反映すること）:\n${analysisInsight}\n`
+    : "";
+
   return `
 今日作る投稿カテゴリ: ${category}（${CATEGORY_LABEL[category]}）
 今回の主ターゲット: ${target}
 
 直近の投稿（重複回避。言い回し・冒頭・構成が被らないように）:
 ${recent}
-${perfBlock}
+${perfBlock}${insightBlock}
 必須:
 - 本文の末尾に「AI Contents Bank開発中」を1行、その次にURL: ${ctaUrl}
 - 宣伝のための説明だけにせず、読者が「保存したくなる」具体を入れる

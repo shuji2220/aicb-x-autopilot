@@ -3,6 +3,8 @@ import "dotenv/config";
 import { sendTelegramMessage } from "./telegram";
 import { readState, writeState } from "./state";
 import { getTweetMetrics, TweetMetrics } from "./x";
+import { callClaudeJson } from "./claude";
+import { buildAnalysisInsight } from "./analyze";
 
 function mustGetEnv(key: string): string {
   const v = process.env[key];
@@ -111,6 +113,51 @@ async function main() {
   });
 
   console.log("Report sent to Telegram.");
+
+  // Claude分析インサイト
+  const anthropicKey = process.env.ANTHROPIC_API_KEY;
+  const anthropicModel = process.env.ANTHROPIC_MODEL;
+  if (anthropicKey && anthropicModel) {
+    try {
+      const insightUser = buildAnalysisInsight(history, metricsMap);
+      const insight = await callClaudeJson({
+        apiKey: anthropicKey,
+        model: anthropicModel,
+        system:
+          "あなたはSNS戦略アナリストです。X投稿データを分析し、次の投稿戦略への具体的な示唆を出してください。必ず指定のJSON形式のみで返してください。前置き・マークダウン・コードフェンスは一切不要です。",
+        user: insightUser,
+        maxTokens: 800,
+      });
+
+      state.analysis_insight = {
+        updated_at: new Date().toISOString(),
+        best_post_type: String(insight?.best_post_type ?? ""),
+        best_post_time_hint: String(insight?.best_post_time_hint ?? ""),
+        trend_keywords: Array.isArray(insight?.trend_keywords) ? insight.trend_keywords : [],
+        recommendations: Array.isArray(insight?.recommendations) ? insight.recommendations : [],
+        raw: insight,
+      };
+      writeState(state);
+
+      if (state.analysis_insight.recommendations.length > 0) {
+        const ai = state.analysis_insight;
+        const recList = ai.recommendations
+          .map((r: string, i: number) => `${i + 1}. ${r}`)
+          .join("\n");
+        const insightMsg =
+          `🧠【AI分析インサイト】\n` +
+          `ベスト投稿タイプ: ${ai.best_post_type}\n` +
+          `推奨投稿時間帯: ${ai.best_post_time_hint}\n` +
+          `注目キーワード: ${ai.trend_keywords.join(", ")}\n` +
+          `📌 次の投稿への提言:\n${recList}`;
+        await sendTelegramMessage({ botToken, chatId, text: insightMsg });
+      }
+
+      console.log("Analysis insight saved and sent.");
+    } catch (err: any) {
+      console.error("Claude analysis failed:", err?.message);
+    }
+  }
 }
 
 main().catch((e) => {

@@ -89,3 +89,55 @@ export function buildPerformanceSummary(history: HistoryEntry[]): string | null 
 
   return lines.join("\n");
 }
+
+/**
+ * Claude に渡す分析用 user プロンプトを生成する。
+ * report.ts から呼び出される。
+ */
+export function buildAnalysisInsight(
+  history: HistoryEntry[],
+  metricsMap: Map<string, { like_count: number; retweet_count: number; reply_count: number; impression_count: number; quote_count: number }>
+): string {
+  // メトリクス付き投稿を整形
+  const postsWithMetrics = history.slice(0, 14).map((h) => {
+    const m = metricsMap.get(String(h.tweet_id));
+    const engagement = m
+      ? m.like_count + m.retweet_count + m.reply_count + m.quote_count
+      : 0;
+    const engRate = m && m.impression_count > 0
+      ? ((engagement / m.impression_count) * 100).toFixed(2)
+      : "0.00";
+    return {
+      id: h.id,
+      text: String(h.text ?? "").replace(/\s+/g, " ").slice(0, 80),
+      category: h.category ?? "unknown",
+      impressions: m?.impression_count ?? 0,
+      likes: m?.like_count ?? 0,
+      retweets: m?.retweet_count ?? 0,
+      engagement_rate_pct: engRate,
+      has_metrics: !!m,
+    };
+  });
+
+  const prompt = `
+以下は直近のX投稿データです。分析して次の投稿戦略への示唆をJSONで返してください。
+
+投稿データ:
+${JSON.stringify(postsWithMetrics, null, 2)}
+
+出力フォーマット（JSONのみ、コードフェンスなし）:
+{
+  "best_post_type": "最もパフォーマンスが高かった投稿タイプの説明（日本語で簡潔に）",
+  "best_post_time_hint": "投稿IDから読み取れる好成績の時間帯パターン（なければ不明）",
+  "trend_keywords": ["今後使うべきキーワード1", "キーワード2", "キーワード3"],
+  "recommendations": [
+    "次の投稿で意識すべき改善点（具体的に、日本語で）",
+    "改善点2",
+    "改善点3"
+  ],
+  "avoid_patterns": ["避けるべきパターン1", "パターン2"]
+}
+`.trim();
+
+  return prompt;
+}
