@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548773
+    "last_update_id": 853548774
   },
-  "pending": {
-    "id": "2026-03-06",
-    "status": "pending",
-    "draft_text": "APIの型定義ドキュメント、従来は仕様策定から記述まで2日かかっていた。\nエンジニアが「既存スキーマ＋ビジネスロジック制約＋エラーハンドリング要件」をAIに渡したら、OpenAPI仕様が3時間で完成。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-    "created_at": "2026-03-06T08:10:51.347Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-03-06",
+      "posted_at": "2026-03-06T09:32:40.711Z",
+      "tweet_id": "2029852655514968348",
+      "text": "APIの型定義ドキュメント、従来は仕様策定から記述まで2日かかっていた。\nエンジニアが「既存スキーマ＋ビジネスロジック制約＋エラーハンドリング要件」をAIに渡したら、OpenAPI仕様が3時間で完成。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
     {
       "id": "2026-03-05",
       "posted_at": "2026-03-05T22:16:32.449Z",
