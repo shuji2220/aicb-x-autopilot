@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548775
+    "last_update_id": 853548776
   },
-  "pending": {
-    "id": "2026-03-08",
-    "status": "pending",
-    "draft_text": "#エンジニア向け CI/CDパイプラインの設定ファイル、手書きだと1日かかっていた。\nエンジニアが「既存デプロイ要件＋本番環境制約＋テスト自動化の範囲」をAIに渡したら、GitHub Actions定義が30分で完成。\n微調整だけで本番反映できた。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-    "created_at": "2026-03-08T08:07:48.901Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-03-08",
+      "posted_at": "2026-03-08T08:18:12.646Z",
+      "tweet_id": "2030558690831736935",
+      "text": "#エンジニア向け CI/CDパイプラインの設定ファイル、手書きだと1日かかっていた。\nエンジニアが「既存デプロイ要件＋本番環境制約＋テスト自動化の範囲」をAIに渡したら、GitHub Actions定義が30分で完成。\n微調整だけで本番反映できた。\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
     {
       "id": "2026-03-07",
       "posted_at": "2026-03-07T08:27:56.951Z",
