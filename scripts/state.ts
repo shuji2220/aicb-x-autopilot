@@ -21,6 +21,14 @@ export type HistoryEntry = {
   metrics?: HistoryMetrics;
 };
 
+export type DashboardSnapshot = {
+  followers_count: number;
+  following_count: number;
+  tweet_count: number;
+  listed_count: number;
+  fetched_at: string;
+};
+
 export type State = {
   telegram: { last_update_id: number };
   pending: null | {
@@ -49,6 +57,9 @@ export type State = {
     trend_keywords: string[];
     recommendations: string[];
     raw?: unknown;
+  };
+  dashboard?: {
+    snapshots: DashboardSnapshot[];
   };
 };
 
