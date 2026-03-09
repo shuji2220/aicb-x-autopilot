@@ -139,6 +139,39 @@ export async function getTweetMetrics(tweetIds: string[]): Promise<TweetMetrics[
   }));
 }
 
+export type AccountMetrics = {
+  followers_count: number;
+  following_count: number;
+  tweet_count: number;
+  listed_count: number;
+  fetched_at: string;
+};
+
+/**
+ * Fetch account-level public metrics (follower count, etc.) via v2 /users/me.
+ */
+export async function getAccountMetrics(): Promise<AccountMetrics> {
+  const client = new TwitterApi({
+    appKey: mustGetEnv("X_API_KEY"),
+    appSecret: mustGetEnv("X_API_KEY_SECRET"),
+    accessToken: mustGetEnv("X_ACCESS_TOKEN"),
+    accessSecret: mustGetEnv("X_ACCESS_TOKEN_SECRET"),
+  });
+
+  const { data } = await client.v2.me({
+    "user.fields": ["public_metrics"],
+  });
+
+  const pm = data.public_metrics;
+  return {
+    followers_count: pm?.followers_count ?? 0,
+    following_count: pm?.following_count ?? 0,
+    tweet_count: pm?.tweet_count ?? 0,
+    listed_count: pm?.listed_count ?? 0,
+    fetched_at: new Date().toISOString(),
+  };
+}
+
 export async function postTweet(
   text: string
 ): Promise<TweetResult> {

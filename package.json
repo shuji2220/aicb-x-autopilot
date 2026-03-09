@@ -8,7 +8,8 @@
     "generate": "ts-node scripts/generate.ts",
     "watch": "ts-node scripts/watch.ts",
     "report": "ts-node scripts/report.ts",
-    "x:debug": "ts-node scripts/x_debug.ts"
+    "x:debug": "ts-node scripts/x_debug.ts",
+    "dashboard": "ts-node scripts/dashboard.ts"
   },
   "repository": {
     "type": "git",
