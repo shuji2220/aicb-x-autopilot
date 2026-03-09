@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548776
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-09",
+    "status": "pending",
+    "draft_text": "配色案を3時間から30分に短縮するプロンプト。\nデザイナーが「業界＋ブランドコンセプト＋ターゲット層」をAIに渡すと、色の根拠付き候補が一覧で出る。\n微調整だけで提案準備が完了。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+    "created_at": "2026-03-09T08:14:59.173Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-08",
@@ -179,11 +185,11 @@
     "category_counts": {
       "usecase": 8,
       "success": 6,
-      "prompt": 2,
+      "prompt": 3,
       "vision": 1,
       "devlog": 1
     },
-    "target_index": 3
+    "target_index": 4
   },
   "analysis_insight": {
     "updated_at": "2026-03-09T06:23:55.091Z",
