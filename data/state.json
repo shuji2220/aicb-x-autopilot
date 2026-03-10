@@ -1,10 +1,10 @@
 {
   "telegram": {
-    "last_update_id": 853548779
+    "last_update_id": 853548780
   },
   "pending": {
     "id": "2026-03-10-quote",
-    "status": "pending",
+    "status": "failed",
     "draft_text": "正しく。基礎理解の不足が議論を曖昧にしてる。メカニズムを正確に把握すれば、適用領域と限界が自ずと見えてくる。その先に本当のメリット議論が始まる。",
     "quote_tweet_id": "2031423389232148706",
     "quote_tweet_url": "https://x.com/i/web/status/2031423389232148706",
