@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548777
+    "last_update_id": 853548778
   },
-  "pending": {
-    "id": "2026-03-10",
-    "status": "pending",
-    "draft_text": "取材メモから原稿まで、ライターは平均5時間の整理作業に使っていた。\nAIに「取材メモ＋構成案＋媒体のトーン」を渡すと、初稿のドラフトが2時間で完成。\nあなたは推敲と事実確認だけに集中できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-    "created_at": "2026-03-10T08:13:00.746Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-03-10",
+      "posted_at": "2026-03-10T08:23:21.634Z",
+      "tweet_id": "2031284762586001908",
+      "text": "取材メモから原稿まで、ライターは平均5時間の整理作業に使っていた。\nAIに「取材メモ＋構成案＋媒体のトーン」を渡すと、初稿のドラフトが2時間で完成。\nあなたは推敲と事実確認だけに集中できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
     {
       "id": "2026-03-09",
       "posted_at": "2026-03-09T08:25:16.800Z",
