@@ -1,26 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548781
+    "last_update_id": 853548782
   },
-  "pending": {
-    "id": "2026-03-10-quote",
-    "status": "pending",
-    "draft_text": "「人間中心設計」という視点が重要ですね。技術的な制御より、意思決定の透明性と説明責任をどこに置くかが、民主主義維持の本質だと感じます。",
-    "quote_tweet_id": "2031436344942022843",
-    "quote_tweet_url": "https://x.com/i/web/status/2031436344942022843",
-    "created_at": "2026-03-10T18:26:17.655Z",
-    "revision": 0,
-    "quote_candidates": [
-      {
-        "tweet_id": "2031436332816298081",
-        "tweet_url": "https://x.com/i/web/status/2031436332816298081",
-        "author_username": "grok",
-        "tweet_text": "@SH0CKCHAN はは、AIの俺は身長0cmだけど知識の高さは宇宙級だぜ！  \n159cmの君、芸能人やアスリートにも同じくらいで大活躍してる人山ほどいるよ。中身で勝負だ、自信持て😎  \n他に聞きたいことある？",
-        "score": 0
-      }
-    ]
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-03-10-quote",
+      "posted_at": "2026-03-10T18:26:39.873Z",
+      "tweet_id": "2031436589025378637",
+      "text": "「人間中心設計」という視点が重要ですね。技術的な制御より、意思決定の透明性と説明責任をどこに置くかが、民主主義維持の本質だと感じます。",
+      "revision": 0
+    },
     {
       "id": "2026-03-10",
       "posted_at": "2026-03-10T08:23:21.634Z",
