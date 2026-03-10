@@ -29,33 +29,39 @@ async function tryQuoteWithRetry(
   text: string,
   primaryTweetId: string,
   candidates: QuoteCandidate[],
-): Promise<{ tweetId: string; whoami: any; maskedKeys: Record<string, string> }> {
+  quoteUrl?: string,
+): Promise<{ tweetId: string; whoami: any; maskedKeys: Record<string, string>; fallback?: boolean }> {
   // 1位を試す
   try {
     return await postQuoteTweet(text, primaryTweetId);
   } catch (err: any) {
-    if (!isQuoteForbidden(err) || candidates.length === 0) {
-      throw err; // 403以外 or 代替候補なし → そのまま throw
+    if (!isQuoteForbidden(err)) {
+      throw err; // 403以外 → そのまま throw
     }
     console.log(`Quote forbidden for ${primaryTweetId}, trying ${candidates.length} backup candidates...`);
   }
 
-  // 代替候補を順にリトライ
-  for (let i = 0; i < candidates.length; i++) {
+  // 代替候補を最大1件だけリトライ（API消費を抑える）
+  const maxRetry = Math.min(candidates.length, 1);
+  for (let i = 0; i < maxRetry; i++) {
     const candidate = candidates[i];
     try {
-      console.log(`Retry ${i + 1}/${candidates.length}: ${candidate.tweet_id} by @${candidate.author_username}`);
+      console.log(`Retry ${i + 1}/${maxRetry}: ${candidate.tweet_id} by @${candidate.author_username}`);
       return await postQuoteTweet(text, candidate.tweet_id);
     } catch (err: any) {
-      if (!isQuoteForbidden(err) || i === candidates.length - 1) {
-        throw err; // 403以外 or 最後の候補 → throw
+      if (!isQuoteForbidden(err)) {
+        throw err; // 403以外 → throw
       }
-      console.log(`Quote forbidden for ${candidate.tweet_id}, trying next...`);
+      console.log(`Quote forbidden for ${candidate.tweet_id}, falling back...`);
     }
   }
 
-  // ここには到達しないはずだが安全のため
-  throw new Error("All quote candidates were forbidden");
+  // 全候補403 → URLを本文に埋め込んで通常ツイートにフォールバック
+  const fallbackUrl = quoteUrl ?? `https://x.com/i/web/status/${primaryTweetId}`;
+  const fallbackText = `${text}\n${fallbackUrl}`;
+  console.log(`All quote candidates forbidden. Falling back to regular tweet with URL.`);
+  const result = await postTweet(fallbackText);
+  return { ...result, fallback: true };
 }
 
 type Command =
@@ -179,20 +185,21 @@ async function main() {
       try {
         // 引用ツイートか通常ツイートかで分岐
         const isQuoteTweet = !!state.pending.quote_tweet_id;
-        let result: { tweetId: string; whoami: any; maskedKeys: Record<string, string> };
+        let result: { tweetId: string; whoami: any; maskedKeys: Record<string, string>; fallback?: boolean };
 
         if (isQuoteTweet) {
-          // 引用ツイート: 403なら代替候補でリトライ
+          // 引用ツイート: 403なら代替候補でリトライ → 全滅ならURL埋め込みで通常投稿
           result = await tryQuoteWithRetry(
             state.pending.draft_text,
             state.pending.quote_tweet_id!,
             state.pending.quote_candidates ?? [],
+            state.pending.quote_tweet_url,
           );
         } else {
           result = await postTweet(state.pending.draft_text);
         }
 
-        const { tweetId, whoami, maskedKeys } = result;
+        const { tweetId, whoami, maskedKeys, fallback } = result;
         console.log("APPROVE OK tweetId=", tweetId, "whoami=", whoami);
 
         state.history.unshift({
@@ -212,11 +219,15 @@ async function main() {
         const shortenNote = shortened
           ? `⚠️ 自動短縮: ${originalWeight}→${finalWeight} weight\n`
           : "";
+        const fallbackNote = fallback
+          ? `⚠️ 全候補で引用不可のため、URL埋め込みの通常ツイートで投稿しました\n`
+          : "";
         await sendTelegramMessage({
           botToken,
           chatId,
           text:
             `🚀 投稿しました\n` +
+            fallbackNote +
             shortenNote +
             `ID: ${cmd.id}\n` +
             `tweet_id: ${tweetId}\n` +
