@@ -3,7 +3,7 @@ import { getTelegramUpdates, sendTelegramMessage } from "./telegram";
 import { readState, writeState, getStatePath } from "./state";
 import { callClaudeJson } from "./claude";
 import { buildDraftSystem, buildReviseUser } from "./prompts";
-import { postTweet } from "./x";
+import { postTweet, postQuoteTweet } from "./x";
 import { shortenTweet } from "./x_text";
 
 function mustGetEnv(key: string): string {
@@ -131,7 +131,11 @@ async function main() {
       state.pending.status = "posting";
 
       try {
-        const { tweetId, whoami, maskedKeys } = await postTweet(state.pending.draft_text);
+        // 引用ツイートか通常ツイートかで分岐
+        const isQuoteTweet = !!state.pending.quote_tweet_id;
+        const { tweetId, whoami, maskedKeys } = isQuoteTweet
+          ? await postQuoteTweet(state.pending.draft_text, state.pending.quote_tweet_id!)
+          : await postTweet(state.pending.draft_text);
         console.log("APPROVE OK tweetId=", tweetId, "whoami=", whoami);
 
         state.history.unshift({
@@ -182,6 +186,16 @@ async function main() {
     }
 
     if (cmd.kind === "revise") {
+      // 引用ツイートはrevise非対応
+      if (state.pending.quote_tweet_id) {
+        await sendTelegramMessage({
+          botToken,
+          chatId,
+          text: `⚠️ 引用ツイートはrevise非対応です。/reject ${cmd.id} して再生成してください。`,
+        });
+        continue;
+      }
+
       // 修正回数制限チェック
       if (state.pending.revision >= 2) {
         await sendTelegramMessage({
