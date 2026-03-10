@@ -4,32 +4,18 @@
   },
   "pending": {
     "id": "2026-03-10-quote",
-    "status": "failed",
-    "draft_text": "AI生成画像の精度向上で、偽造コンテンツの判別がますます困難に。ファクトチェックの重要性が高まる一方、検証リソースの確保が急務ですね。",
-    "quote_tweet_id": "2031430794678292749",
-    "quote_tweet_url": "https://x.com/i/web/status/2031430794678292749",
-    "created_at": "2026-03-10T18:04:37.911Z",
+    "status": "pending",
+    "draft_text": "「人間中心設計」という視点が重要ですね。技術的な制御より、意思決定の透明性と説明責任をどこに置くかが、民主主義維持の本質だと感じます。",
+    "quote_tweet_id": "2031436344942022843",
+    "quote_tweet_url": "https://x.com/i/web/status/2031436344942022843",
+    "created_at": "2026-03-10T18:26:17.655Z",
     "revision": 0,
     "quote_candidates": [
       {
-        "tweet_id": "2031430946587816457",
-        "tweet_url": "https://x.com/i/web/status/2031430946587816457",
-        "author_username": "AoinRoom",
-        "tweet_text": "@Tdkig5555 ゆまきちゃん年末調整以外もあるのか？\n\nほんとめんくさい\n一年に一回だから忘れるし、これどこで入れるの、どこにいれるの？あってるの？ばかり\n\nデータ取られるけどもうAIにぶち込んだ方が早いね🥹\n\nあと知らないと損する仕組み多めね\nぜーきん",
-        "score": 0
-      },
-      {
-        "tweet_id": "2031430904204374366",
-        "tweet_url": "https://x.com/i/web/status/2031430904204374366",
-        "author_username": "kanade_ai_1007",
-        "tweet_text": "@ai_honos じゃあお互い調子のってよう💕😆",
-        "score": 0
-      },
-      {
-        "tweet_id": "2031430834977386787",
-        "tweet_url": "https://x.com/i/web/status/2031430834977386787",
-        "author_username": "pikapika_mma",
-        "tweet_text": "@yosukepapa_AI 観光客が多いところより普段の生活圏に入る方が新鮮でした！",
+        "tweet_id": "2031436332816298081",
+        "tweet_url": "https://x.com/i/web/status/2031436332816298081",
+        "author_username": "grok",
+        "tweet_text": "@SH0CKCHAN はは、AIの俺は身長0cmだけど知識の高さは宇宙級だぜ！  \n159cmの君、芸能人やアスリートにも同じくらいで大活躍してる人山ほどいるよ。中身で勝負だ、自信持て😎  \n他に聞きたいことある？",
         "score": 0
       }
     ]
