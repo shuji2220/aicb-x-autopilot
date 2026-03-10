@@ -277,6 +277,10 @@ export async function postQuoteTweet(
     return { tweetId: data.id, whoami, maskedKeys };
   } catch (err: any) {
     const detail = formatTwitterError(err, text);
-    throw new Error(`v2.tweet (quote) failed\nwhoami=${safeStringify(whoami)}\nmaskedKeys=${safeStringify(maskedKeys)}\nquoteTweetId=${quoteTweetId}\n${detail}`);
+    const wrapped = new Error(`v2.tweet (quote) failed\nwhoami=${safeStringify(whoami)}\nmaskedKeys=${safeStringify(maskedKeys)}\nquoteTweetId=${quoteTweetId}\n${detail}`);
+    (wrapped as any).data = err?.data;
+    (wrapped as any).code = err?.code;
+    (wrapped as any).status = err?.status;
+    throw wrapped;
   }
 }
