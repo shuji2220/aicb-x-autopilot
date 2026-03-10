@@ -1,10 +1,10 @@
 {
   "telegram": {
-    "last_update_id": 853548778
+    "last_update_id": 853548779
   },
   "pending": {
     "id": "2026-03-10-quote",
-    "status": "pending",
+    "status": "failed",
     "draft_text": "AI時代は個人の収入構造の多角化が必須になった。単一スキルへの依存リスクが顕在化して、迫られるキャリア転換。適応スピードが生き残りの分水嶺ですね。",
     "quote_tweet_id": "2031417977632075802",
     "quote_tweet_url": "https://x.com/i/web/status/2031417977632075802",
