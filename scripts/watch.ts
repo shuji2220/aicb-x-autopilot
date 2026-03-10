@@ -12,6 +12,52 @@ function mustGetEnv(key: string): string {
   return v;
 }
 
+type QuoteCandidate = {
+  tweet_id: string;
+  tweet_url: string;
+  author_username: string;
+  tweet_text: string;
+  score: number;
+};
+
+function isQuoteForbidden(err: any): boolean {
+  const status = err?.data?.status ?? err?.code ?? err?.status;
+  return status === 403;
+}
+
+async function tryQuoteWithRetry(
+  text: string,
+  primaryTweetId: string,
+  candidates: QuoteCandidate[],
+): Promise<{ tweetId: string; whoami: any; maskedKeys: Record<string, string> }> {
+  // 1位を試す
+  try {
+    return await postQuoteTweet(text, primaryTweetId);
+  } catch (err: any) {
+    if (!isQuoteForbidden(err) || candidates.length === 0) {
+      throw err; // 403以外 or 代替候補なし → そのまま throw
+    }
+    console.log(`Quote forbidden for ${primaryTweetId}, trying ${candidates.length} backup candidates...`);
+  }
+
+  // 代替候補を順にリトライ
+  for (let i = 0; i < candidates.length; i++) {
+    const candidate = candidates[i];
+    try {
+      console.log(`Retry ${i + 1}/${candidates.length}: ${candidate.tweet_id} by @${candidate.author_username}`);
+      return await postQuoteTweet(text, candidate.tweet_id);
+    } catch (err: any) {
+      if (!isQuoteForbidden(err) || i === candidates.length - 1) {
+        throw err; // 403以外 or 最後の候補 → throw
+      }
+      console.log(`Quote forbidden for ${candidate.tweet_id}, trying next...`);
+    }
+  }
+
+  // ここには到達しないはずだが安全のため
+  throw new Error("All quote candidates were forbidden");
+}
+
 type Command =
   | { kind: "approve"; id: string }
   | { kind: "reject"; id: string }
@@ -133,9 +179,20 @@ async function main() {
       try {
         // 引用ツイートか通常ツイートかで分岐
         const isQuoteTweet = !!state.pending.quote_tweet_id;
-        const { tweetId, whoami, maskedKeys } = isQuoteTweet
-          ? await postQuoteTweet(state.pending.draft_text, state.pending.quote_tweet_id!)
-          : await postTweet(state.pending.draft_text);
+        let result: { tweetId: string; whoami: any; maskedKeys: Record<string, string> };
+
+        if (isQuoteTweet) {
+          // 引用ツイート: 403なら代替候補でリトライ
+          result = await tryQuoteWithRetry(
+            state.pending.draft_text,
+            state.pending.quote_tweet_id!,
+            state.pending.quote_candidates ?? [],
+          );
+        } else {
+          result = await postTweet(state.pending.draft_text);
+        }
+
+        const { tweetId, whoami, maskedKeys } = result;
         console.log("APPROVE OK tweetId=", tweetId, "whoami=", whoami);
 
         state.history.unshift({

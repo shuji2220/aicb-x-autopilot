@@ -62,7 +62,7 @@ async function searchQuoteCandidates(): Promise<TweetWithAuthor[]> {
   const query = "(AI OR プロンプト OR ChatGPT OR Claude) lang:ja -is:retweet";
 
   const result = await client.v2.search(query, {
-    "tweet.fields": ["public_metrics", "author_id", "text"],
+    "tweet.fields": ["public_metrics", "author_id", "text", "reply_settings"],
     expansions: ["author_id"],
     "user.fields": ["public_metrics", "description", "verified", "verified_type"],
     max_results: 20,
@@ -93,35 +93,29 @@ async function searchQuoteCandidates(): Promise<TweetWithAuthor[]> {
   return tweetsWithAuthors;
 }
 
+function isQuoteFriendly(tweet: TweetV2): boolean {
+  // reply_settings が "everyone" または未設定なら引用可能性が高い
+  const rs = (tweet as any).reply_settings;
+  return !rs || rs === "everyone";
+}
+
 function filterCandidates(candidates: TweetWithAuthor[]): TweetWithAuthor[] {
-  // フィルタ条件1: フォロワー100人以上 + 公式認証 + プロフィールキーワード
-  let filtered = candidates.filter(({ author }) => {
+  // 必須条件: フォロワー1000人以上 + 認証済み
+  const base = candidates.filter(({ author }) => {
     const followers = author.public_metrics?.followers_count ?? 0;
-    if (followers < 100) return false;
-    if (!isOfficialVerified(author)) return false;
-    if (!hasProfileKeyword(author.description)) return false;
+    if (followers < 1000) return false;
+    if (!author.verified) return false;
     return true;
   });
 
-  if (filtered.length > 0) return filtered;
+  if (base.length === 0) return [];
 
-  // fallback1: 認証済み + フォロワー100人以上
-  filtered = candidates.filter(({ author }) => {
-    const followers = author.public_metrics?.followers_count ?? 0;
-    if (followers < 100) return false;
-    if (!isOfficialVerified(author)) return false;
-    return true;
-  });
+  // 引用制限なし（reply_settings === "everyone"）を優先
+  const quoteFriendly = base.filter(({ tweet }) => isQuoteFriendly(tweet));
+  if (quoteFriendly.length > 0) return quoteFriendly;
 
-  if (filtered.length > 0) return filtered;
-
-  // fallback2: フォロワー100人以上のみ
-  filtered = candidates.filter(({ author }) => {
-    const followers = author.public_metrics?.followers_count ?? 0;
-    return followers >= 100;
-  });
-
-  return filtered;
+  // reply_settings が制限付きでも候補として残す（リトライで対応）
+  return base;
 }
 
 async function main() {
@@ -171,9 +165,12 @@ async function main() {
     return;
   }
 
-  // スコアリングして上位1件を選ぶ
+  // スコアリングして上位を選ぶ（リトライ用に複数候補を保持）
   filtered.sort((a, b) => scoreTweet(b.tweet) - scoreTweet(a.tweet));
-  const selected = filtered[0];
+  const MAX_CANDIDATES = 5;
+  const topCandidates = filtered.slice(0, MAX_CANDIDATES);
+
+  const selected = topCandidates[0];
   const tweetId = selected.tweet.id;
   const tweetText = selected.tweet.text ?? "";
   const tweetUrl = `https://x.com/i/web/status/${tweetId}`;
@@ -181,6 +178,7 @@ async function main() {
 
   console.log(`Selected tweet: ${tweetId} by @${authorUsername}`);
   console.log(`Score: ${scoreTweet(selected.tweet)}`);
+  console.log(`Total candidates for retry: ${topCandidates.length}`);
 
   // Claude で引用コメントを生成
   const system = buildQuoteCommentSystem();
@@ -200,6 +198,15 @@ async function main() {
   // ID（UTC日付）
   const todayId = new Date().toISOString().slice(0, 10) + "-quote";
 
+  // リトライ用候補リスト（1位以外）
+  const backupCandidates = topCandidates.slice(1).map((c) => ({
+    tweet_id: c.tweet.id,
+    tweet_url: `https://x.com/i/web/status/${c.tweet.id}`,
+    author_username: c.author.username ?? "unknown",
+    tweet_text: (c.tweet.text ?? "").slice(0, 200),
+    score: scoreTweet(c.tweet),
+  }));
+
   state.pending = {
     id: todayId,
     status: "pending",
@@ -208,6 +215,7 @@ async function main() {
     quote_tweet_url: tweetUrl,
     created_at: new Date().toISOString(),
     revision: 0,
+    quote_candidates: backupCandidates,
   };
 
   writeState(state);
@@ -224,6 +232,7 @@ async function main() {
       `${tweetText.slice(0, 200)}${tweetText.length > 200 ? "..." : ""}\n\n` +
       `--- 生成コメント ---\n` +
       `${commentText}\n\n` +
+      `代替候補: ${backupCandidates.length}件（引用制限時に自動リトライ）\n\n` +
       `操作:\n` +
       `- 承認: /approve ${todayId}\n` +
       `- 却下: /reject ${todayId}\n` +

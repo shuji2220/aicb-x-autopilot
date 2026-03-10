@@ -39,6 +39,13 @@ export type State = {
     revision: number;
     quote_tweet_id?: string;
     quote_tweet_url?: string;
+    quote_candidates?: Array<{
+      tweet_id: string;
+      tweet_url: string;
+      author_username: string;
+      tweet_text: string;
+      score: number;
+    }>;
   };
   history: HistoryEntry[];
   policy: {
