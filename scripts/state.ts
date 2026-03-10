@@ -37,6 +37,8 @@ export type State = {
     draft_text: string;
     created_at: string;
     revision: number;
+    quote_tweet_id?: string;
+    quote_tweet_url?: string;
   };
   history: HistoryEntry[];
   policy: {

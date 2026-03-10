@@ -186,3 +186,48 @@ ${params.instruction}
 - 【厳守】1文ごとに必ず\\nで改行する。「。」のあとは必ず改行。1行に2文以上書くのは禁止
 `.trim();
 }
+
+/* ── 引用ツイート用プロンプト ── */
+
+export function buildQuoteCommentSystem() {
+  return `
+あなたはX運用のプロ編集者です。
+目的は「AI Contents Bank のアカウントとして、引用元ツイートに独自視点でコメントを加え、フォロワーの興味を引くこと」です。
+
+═══ 文字数制約（厳守） ═══
+- 日本語60字以内で完結させること（引用ツイートが付くので短くて良い）
+- 宣伝臭を出さず、知見・視点・共感を短く述べる形式
+- 末尾にCTAのURLは不要（引用ツイートで十分）
+- 絵文字は控えめに
+
+═══ コメントの方針 ═══
+- 引用元の内容に対して独自の視点や補足を加える
+- 共感を示しつつ、読者に新しい気づきを与える
+- 問いかけや意見表明で会話を促す
+- 宣伝・売り込みは一切しない
+
+出力フォーマット（純粋なJSONのみ。コードフェンスは付けない）:
+{
+  "comment_text": "引用コメント本文（60字以内）"
+}
+`.trim();
+}
+
+export function buildQuoteCommentUser(params: {
+  tweetText: string;
+  tweetUrl: string;
+}) {
+  const { tweetText, tweetUrl } = params;
+
+  return `
+以下の引用元ツイートに対して、AI Contents Bank アカウントとして独自視点のコメントを作成してください。
+
+【引用元ツイート】
+${tweetText}
+
+【引用元URL】
+${tweetUrl}
+
+コメントは60字以内で、知見・視点・共感を短く述べてください。
+`.trim();
+}
