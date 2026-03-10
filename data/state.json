@@ -1,10 +1,10 @@
 {
   "telegram": {
-    "last_update_id": 853548780
+    "last_update_id": 853548781
   },
   "pending": {
     "id": "2026-03-10-quote",
-    "status": "pending",
+    "status": "failed",
     "draft_text": "AI生成画像の精度向上で、偽造コンテンツの判別がますます困難に。ファクトチェックの重要性が高まる一方、検証リソースの確保が急務ですね。",
     "quote_tweet_id": "2031430794678292749",
     "quote_tweet_url": "https://x.com/i/web/status/2031430794678292749",
