@@ -235,5 +235,16 @@
         "複数職種の事例を1投稿に詰め込むパターン（ターゲットが分散する可能性）"
       ]
     }
+  },
+  "dashboard": {
+    "snapshots": [
+      {
+        "followers_count": 59,
+        "following_count": 118,
+        "tweet_count": 191,
+        "listed_count": 0,
+        "fetched_at": "2026-03-10T00:41:15.561Z"
+      }
+    ]
   }
 }
