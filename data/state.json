@@ -2,7 +2,38 @@
   "telegram": {
     "last_update_id": 853548783
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-11-quote",
+    "status": "pending",
+    "draft_text": "同じプロンプトで複数生成する比較研究、実務的ですね。Style Influenceの数値変動が音色・リズムにどう影響するか、定量的な解析が進むとSunoの予測性も高まりそう。",
+    "quote_tweet_id": "2031706188577116632",
+    "quote_tweet_url": "https://x.com/i/web/status/2031706188577116632",
+    "created_at": "2026-03-11T12:18:14.782Z",
+    "revision": 0,
+    "quote_candidates": [
+      {
+        "tweet_id": "2031706205736092064",
+        "tweet_url": "https://x.com/i/web/status/2031706205736092064",
+        "author_username": "yukiedashizuku",
+        "tweet_text": "千本桜 / 黒うさP\n\n【 歌枠 】ChatGPTが考える最強歌枠！？ ～ボカロ編～【 雪枝しずく/VTuber 】 https://t.co/upBs8NPjGk @YouTubeより",
+        "score": 0
+      },
+      {
+        "tweet_id": "2031706192574345262",
+        "tweet_url": "https://x.com/i/web/status/2031706192574345262",
+        "author_username": "browncatro1",
+        "tweet_text": "@ai_girl_mai MAIさん、3周年に引き続き、お祝いのお言葉をありがとうございます🙏\n引き続きよろしくお願いいたします🙇‍♀️",
+        "score": 0
+      },
+      {
+        "tweet_id": "2031706180620554591",
+        "tweet_url": "https://x.com/i/web/status/2031706180620554591",
+        "author_username": "AI_Kei75",
+        "tweet_text": "@glum_ai ヒロNeさん、おっギャルさまです😆❣️\n今週も残り僅かですね👍頑張りましょ～っ🥰",
+        "score": 0
+      }
+    ]
+  },
   "history": [
     {
       "id": "2026-03-11",
