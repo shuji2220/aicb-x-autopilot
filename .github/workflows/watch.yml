@@ -2,7 +2,7 @@ name: Watch Telegram
 
 on:
   workflow_run:
-    workflows: ["Generate Draft", "Generate Quote"]
+    workflows: ["Generate Draft"]
     types: [completed]
   workflow_dispatch:
 

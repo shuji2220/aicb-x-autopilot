@@ -14,20 +14,29 @@ function mustGetEnv(key: string): string {
 }
 
 // 配分に近づけるための簡易スケジューラ（MVP）
-// 40/25/20/10/5 を “出現頻度”として並べ、投稿数で回す
+// 30/25/20/15/10 を "出現頻度"として並べ、投稿数で回す
 function pickCategory(counts: Record<string, number>): Category {
   const order: Category[] = [
-    "usecase",
-    "usecase",
-    "usecase",
-    "usecase",
-    "success",
-    "success",
-    "success",
-    "prompt",
-    "prompt",
-    "vision",
-    "devlog",
+    "ai_news",
+    "ai_news",
+    "ai_news",
+    "ai_news",
+    "ai_news",
+    "ai_news",
+    "ai_tips",
+    "ai_tips",
+    "ai_tips",
+    "ai_tips",
+    "ai_tips",
+    "cto_thought",
+    "cto_thought",
+    "cto_thought",
+    "cto_thought",
+    "industry_trend",
+    "industry_trend",
+    "industry_trend",
+    "tool_review",
+    "tool_review",
   ];
   const total = Object.values(counts).reduce((a, b) => a + b, 0);
   return order[total % order.length];
@@ -82,7 +91,6 @@ async function main() {
 
   const system = buildDraftSystem({
     brand: state.policy.brand,
-    ctaUrl: state.policy.cta_url,
     hashtagsMax: state.policy.hashtags_max,
     lengthHint: state.policy.length_hint,
     bannedPhrases: state.policy.banned_phrases,
@@ -92,7 +100,6 @@ async function main() {
     category,
     target,
     recentPosts,
-    ctaUrl: state.policy.cta_url,
     performanceSummary,
     analysisInsight,
   });
