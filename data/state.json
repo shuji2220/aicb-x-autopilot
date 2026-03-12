@@ -220,28 +220,29 @@
     }
   ],
   "policy": {
-    "brand": "AI Contents Bank",
-    "cta_url": "https://www.ba-concierge.com/ai-contents-bank/",
+    "brand": "堀本修治 / @PD09767678",
+    "cta_url": "",
     "hashtags_max": 2,
-    "length_hint": "100字まで",
+    "length_hint": "120字まで",
     "banned_phrases": [
       "絶対",
       "100%",
       "確実",
       "永久",
       "最強",
-      "誰でも稼げる"
+      "誰でも稼げる",
+      "AI Contents Bank開発中"
     ]
   },
   "strategy": {
     "category_counts": {
-      "usecase": 8,
-      "success": 6,
-      "prompt": 4,
-      "vision": 2,
-      "devlog": 2
+      "ai_news": 0,
+      "ai_tips": 0,
+      "cto_thought": 0,
+      "industry_trend": 0,
+      "tool_review": 0
     },
-    "target_index": 2
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-03-11T06:18:42.466Z",
