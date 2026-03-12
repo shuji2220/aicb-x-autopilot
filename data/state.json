@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548784
+    "last_update_id": 853548785
   },
-  "pending": {
-    "id": "2026-03-12",
-    "status": "pending",
-    "draft_text": "決算資料の初期分析、財務担当者は平均4日を費やしていた。\nAIに「四半期財務データ＋市場環境＋経営課題」を投げると、グラフ化と分析サマリーが半日で完成。\nあなたは経営判断だけに集中できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
-    "created_at": "2026-03-12T08:14:49.692Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-03-12",
+      "posted_at": "2026-03-12T10:30:41.888Z",
+      "tweet_id": "2032041583898484783",
+      "text": "決算資料の初期分析、財務担当者は平均4日を費やしていた。\nAIに「四半期財務データ＋市場環境＋経営課題」を投げると、グラフ化と分析サマリーが半日で完成。\nあなたは経営判断だけに集中できる。\n\nAI Contents Bank開発中\nhttps://www.ba-concierge.com/ai-contents-bank/",
+      "revision": 0
+    },
     {
       "id": "2026-03-11-quote",
       "posted_at": "2026-03-11T12:28:39.220Z",
