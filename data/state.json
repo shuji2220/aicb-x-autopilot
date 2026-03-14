@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548786
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-14",
+    "status": "pending",
+    "draft_text": "採用面接の初期スクリーニング、人事は平均8時間を応募者の動画評価に費やしていた。\nClaudeのビジョン機能に「面接動画＋職務経歴書＋求人要件」を渡すと、適性判定と面接質問案が90分で完成。\n人事は「本当に会うべき候補者」の判断だけに集中できる。\nあなたの組織はまだ手作業でやってますか？",
+    "created_at": "2026-03-14T08:09:24.497Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-13",
@@ -267,13 +273,13 @@
   },
   "strategy": {
     "category_counts": {
-      "ai_news": 1,
+      "ai_news": 2,
       "ai_tips": 0,
       "cto_thought": 0,
       "industry_trend": 0,
       "tool_review": 0
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-03-13T06:19:30.757Z",
