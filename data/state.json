@@ -9,14 +9,30 @@
       "posted_at": "2026-03-14T08:19:48.967Z",
       "tweet_id": "2032733422087508335",
       "text": "採用面接の初期スクリーニング、人事は平均8時間を応募者の動画評価に費やしていた。\nClaudeのビジョン機能に「面接動画＋職務経歴書＋求人要件」を渡すと、適性判定と面接質問案が90分で完成。\n人事は「本当に会うべき候補者」の判断だけに集中できる。\nあなたの組織はまだ手作業でやってますか？",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 52,
+        "quote_count": 0,
+        "fetched_at": "2026-03-15T06:22:59.317Z"
+      }
     },
     {
       "id": "2026-03-13",
       "posted_at": "2026-03-13T08:23:48.873Z",
       "tweet_id": "2032372040557347314",
       "text": "大規模コードベースの要件定義、エンジニアは平均6時間かけて「関連ファイル＋既存実装＋制約条件」を手作業で抽出していた。\nClaudeの200Kトークンを使うと、その作業が30分に圧縮される。\nただし、それでもコンテキスト不足で分割実装を強いられることがある。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 69,
+        "quote_count": 0,
+        "fetched_at": "2026-03-15T06:22:59.317Z"
+      }
     },
     {
       "id": "2026-03-12",
@@ -28,9 +44,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 53,
+        "impression_count": 79,
         "quote_count": 0,
-        "fetched_at": "2026-03-13T06:19:21.415Z"
+        "fetched_at": "2026-03-15T06:22:59.317Z"
       }
     },
     {
@@ -43,9 +59,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 89,
+        "impression_count": 115,
         "quote_count": 0,
-        "fetched_at": "2026-03-13T06:19:21.415Z"
+        "fetched_at": "2026-03-15T06:22:59.317Z"
       }
     },
     {
@@ -58,9 +74,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 84,
+        "impression_count": 100,
         "quote_count": 0,
-        "fetched_at": "2026-03-13T06:19:21.415Z"
+        "fetched_at": "2026-03-15T06:22:59.317Z"
       }
     },
     {
@@ -80,9 +96,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 97,
+        "impression_count": 104,
         "quote_count": 0,
-        "fetched_at": "2026-03-13T06:19:21.415Z"
+        "fetched_at": "2026-03-15T06:22:59.317Z"
       }
     },
     {
