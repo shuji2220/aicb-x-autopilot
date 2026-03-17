@@ -9,14 +9,30 @@
       "posted_at": "2026-03-16T10:58:01.602Z",
       "tweet_id": "2033498012928848109",
       "text": "OpenAI o1がコード評価タスクに投入されて3ヶ月、大手テック企業の採用試験が激変している。\n従来は「LeetCode風の問題を90分で解かせて思考プロセスを確認」という手法だった。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 35,
+        "quote_count": 0,
+        "fetched_at": "2026-03-17T06:24:59.617Z"
+      }
     },
     {
       "id": "2026-03-15",
       "posted_at": "2026-03-15T08:22:11.862Z",
       "tweet_id": "2033096409319354442",
       "text": "スタートアップが要件定義から初期MVP実装まで、従来は4週間かかっていた。\nClaudeに「事業ビジョン＋競合分析＋技術スタック」を渡すと、アーキテクチャ設計とスケルトンコードが3日で完成する。\n残り3週間は機能磨きに集中できる。\nあなたのチームは開発スピード、もう限界だと思ってないか。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 74,
+        "quote_count": 0,
+        "fetched_at": "2026-03-17T06:24:59.617Z"
+      }
     },
     {
       "id": "2026-03-14",
@@ -28,9 +44,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 52,
+        "impression_count": 75,
         "quote_count": 0,
-        "fetched_at": "2026-03-15T06:22:59.317Z"
+        "fetched_at": "2026-03-17T06:24:59.617Z"
       }
     },
     {
@@ -43,9 +59,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 69,
+        "impression_count": 74,
         "quote_count": 0,
-        "fetched_at": "2026-03-15T06:22:59.317Z"
+        "fetched_at": "2026-03-17T06:24:59.617Z"
       }
     },
     {
@@ -58,9 +74,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 79,
+        "impression_count": 85,
         "quote_count": 0,
-        "fetched_at": "2026-03-15T06:22:59.317Z"
+        "fetched_at": "2026-03-17T06:24:59.617Z"
       }
     },
     {
@@ -73,9 +89,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 115,
+        "impression_count": 123,
         "quote_count": 0,
-        "fetched_at": "2026-03-15T06:22:59.317Z"
+        "fetched_at": "2026-03-17T06:24:59.617Z"
       }
     },
     {
@@ -88,9 +104,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 100,
+        "impression_count": 105,
         "quote_count": 0,
-        "fetched_at": "2026-03-15T06:22:59.317Z"
+        "fetched_at": "2026-03-17T06:24:59.617Z"
       }
     },
     {
