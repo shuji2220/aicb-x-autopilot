@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548789
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-17",
+    "status": "pending",
+    "draft_text": "バージョン管理システムの機能追加、エンジニアは平均12時間を「既存コード全体の理解＋制約条件の抽出＋設計検討」に使っていた。\nClaudeの200Kコンテキストに「リポジトリ全体＋PR仕様＋テストケース」を投入すると、実装パターン案と修正点が2時間で完成する。",
+    "created_at": "2026-03-17T08:17:28.425Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-16",
@@ -320,13 +326,13 @@
   },
   "strategy": {
     "category_counts": {
-      "ai_news": 4,
+      "ai_news": 5,
       "ai_tips": 0,
       "cto_thought": 0,
       "industry_trend": 0,
       "tool_review": 0
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-03-13T06:19:30.757Z",
