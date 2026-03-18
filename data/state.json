@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548790
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-18",
+    "status": "pending",
+    "draft_text": "デザインレビュー、従来は図面＋説明ドキュメント＋口頭説明で平均4時間かかっていた。\nClaudeのビジョン機能に「設計図＋要件仕様＋既存デザインシステム」を画像＋テキストで投入すると、矛盾点と改善案が45分で出る。\n製造・ハードウェア企業が続々採用している。",
+    "created_at": "2026-03-18T08:16:21.745Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-17",
@@ -327,13 +333,13 @@
   },
   "strategy": {
     "category_counts": {
-      "ai_news": 5,
+      "ai_news": 6,
       "ai_tips": 0,
       "cto_thought": 0,
       "industry_trend": 0,
       "tool_review": 0
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-03-13T06:19:30.757Z",
