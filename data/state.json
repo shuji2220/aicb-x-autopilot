@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548792
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-20",
+    "status": "pending",
+    "draft_text": "API仕様書とレスポンス例を同じ形式で渡すと精度70%。\nJSON Schema形式に統一すると精度92%に跳ねた。\nClaudeに構造化入力を与えるだけで、エッジケース検出率が3倍になる。\nあなたのチームは入力形式を意識してますか？",
+    "created_at": "2026-03-20T08:13:50.087Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-19",
@@ -358,12 +364,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 6,
-      "ai_tips": 1,
+      "ai_tips": 2,
       "cto_thought": 0,
       "industry_trend": 0,
       "tool_review": 0
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-03-19T06:23:10.806Z",
