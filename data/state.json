@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548794
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-22",
+    "status": "pending",
+    "draft_text": "同じプロンプトを何度も送るなら、入力テンプレートの粒度を落とす方が先だ。\n冗長な説明や重複する条件文を削ぎ落とすだけで、平均35%のトークン削減になる。\nキャッシング機能がない環境でも、実装できる。\nあなたのプロンプトは今、何行のコンテキストを毎回送ってますか？",
+    "created_at": "2026-03-22T08:09:24.800Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-21",
@@ -388,12 +394,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 6,
-      "ai_tips": 3,
+      "ai_tips": 4,
       "cto_thought": 0,
       "industry_trend": 0,
       "tool_review": 0
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-03-21T06:14:34.675Z",
