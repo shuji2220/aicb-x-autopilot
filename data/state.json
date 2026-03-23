@@ -9,14 +9,30 @@
       "posted_at": "2026-03-22T08:19:40.889Z",
       "tweet_id": "2035632491231412301",
       "text": "同じプロンプトを何度も送るなら、入力テンプレートの粒度を落とす方が先だ。\n冗長な説明や重複する条件文を削ぎ落とすだけで、平均35%のトークン削減になる。\nキャッシング機能がない環境でも、実装できる。\nあなたのプロンプトは今、何行のコンテキストを毎回送ってますか？",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 19,
+        "quote_count": 0,
+        "fetched_at": "2026-03-23T06:28:24.262Z"
+      }
     },
     {
       "id": "2026-03-21",
       "posted_at": "2026-03-21T08:18:40.054Z",
       "tweet_id": "2035269848226570445",
       "text": "同じシステムプロンプトを何度も送信するなら、Claudeのプロンプトキャッシング機能を使わないと損している。\nシステムプロンプト+コンテキスト情報を一度キャッシュすれば、2回目以降の呼び出しはトークンコスト90%削減される。\n実装コストは一行追加するだけ。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 49,
+        "quote_count": 0,
+        "fetched_at": "2026-03-23T06:28:24.263Z"
+      }
     },
     {
       "id": "2026-03-20",
@@ -28,9 +44,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 46,
+        "impression_count": 61,
         "quote_count": 0,
-        "fetched_at": "2026-03-21T06:14:25.580Z"
+        "fetched_at": "2026-03-23T06:28:24.263Z"
       }
     },
     {
@@ -43,9 +59,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 72,
+        "impression_count": 77,
         "quote_count": 0,
-        "fetched_at": "2026-03-21T06:14:25.580Z"
+        "fetched_at": "2026-03-23T06:28:24.263Z"
       }
     },
     {
@@ -58,9 +74,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 72,
+        "impression_count": 73,
         "quote_count": 0,
-        "fetched_at": "2026-03-21T06:14:25.580Z"
+        "fetched_at": "2026-03-23T06:28:24.263Z"
       }
     },
     {
@@ -73,9 +89,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 60,
+        "impression_count": 61,
         "quote_count": 0,
-        "fetched_at": "2026-03-21T06:14:25.580Z"
+        "fetched_at": "2026-03-23T06:28:24.263Z"
       }
     },
     {
@@ -88,9 +104,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 50,
+        "impression_count": 52,
         "quote_count": 0,
-        "fetched_at": "2026-03-21T06:14:25.580Z"
+        "fetched_at": "2026-03-23T06:28:24.263Z"
       }
     },
     {
