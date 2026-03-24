@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548796
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-24",
+    "status": "pending",
+    "draft_text": "LLM精度の問題は、プロンプトの書き方ではなく、入力データの粒度で8割決まる。\n要件定義ドキュメントが曖昧なまま投げると、いくらプロンプトを磨いても精度は60%で頭打ち。\n同じドキュメントを「機能要件」「非機能要件」「制約条件」の3層に分解して渡すと、精度が85%に跳ねる。",
+    "created_at": "2026-03-24T08:17:16.883Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-23",
@@ -419,11 +425,11 @@
     "category_counts": {
       "ai_news": 6,
       "ai_tips": 5,
-      "cto_thought": 0,
+      "cto_thought": 1,
       "industry_trend": 0,
       "tool_review": 0
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-03-21T06:14:34.675Z",
