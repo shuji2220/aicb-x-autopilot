@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548803
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-03-31",
+    "status": "pending",
+    "draft_text": "Claude Projectsを導入したスタートアップ5社、全社で同じ悩みが解決した。\nそれは『プロンプトバージョン管理』だ。\n従来は、営業用・開発用・分析用のプロンプトが散在して、どれが最新か分からなくなっていた。",
+    "created_at": "2026-03-31T08:25:44.148Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-30",
@@ -534,9 +540,9 @@
       "ai_tips": 5,
       "cto_thought": 4,
       "industry_trend": 3,
-      "tool_review": 0
+      "tool_review": 1
     },
-    "target_index": 2
+    "target_index": 3
   },
   "analysis_insight": {
     "updated_at": "2026-03-31T06:32:09.156Z",
