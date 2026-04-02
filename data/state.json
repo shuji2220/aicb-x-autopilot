@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548804
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-02",
+    "status": "pending",
+    "draft_text": "プロンプト改善で精度が43%→78%になった企業の共通点は『テンプレート化』だ。\nClaudeのFiles機能を使えば、営業・開発・分析用のプロンプト定義をバージョン管理できる。\n散在していたPromptが統一されると、LLM出力のブレがなくなる。",
+    "created_at": "2026-04-02T08:23:44.626Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-03-31",
@@ -541,9 +547,9 @@
       "ai_tips": 5,
       "cto_thought": 4,
       "industry_trend": 3,
-      "tool_review": 1
+      "tool_review": 2
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-04-01T06:36:43.004Z",
