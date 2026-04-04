@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548806
+    "last_update_id": 853548807
   },
-  "pending": {
-    "id": "2026-04-04",
-    "status": "pending",
-    "draft_text": "Claude 3.7のPrompt Cachingが本格化すると、LLM導入の経済性が逆転する。\n従来は長いドキュメント（100ページ超）を処理するたび、毎回全文をトークン化していた。\nPrompt Cachingならキャッシュされた部分は再課金されない。\nある受託企業は月100万円のAPI費を月25万円に削減した。",
-    "created_at": "2026-04-04T08:14:08.168Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-04-04",
+      "posted_at": "2026-04-04T08:54:35.129Z",
+      "tweet_id": "2040352317296291868",
+      "text": "Claude 3.7のPrompt Cachingが本格化すると、LLM導入の経済性が逆転する。\n従来は長いドキュメント（100ページ超）を処理するたび、毎回全文をトークン化していた。\nPrompt Cachingならキャッシュされた部分は再課金されない。\nある受託企業は月100万円のAPI費を月25万円に削減した。",
+      "revision": 0
+    },
     {
       "id": "2026-04-03",
       "posted_at": "2026-04-03T08:29:57.721Z",
