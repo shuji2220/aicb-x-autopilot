@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548810
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-08",
+    "status": "pending",
+    "draft_text": "Anthropicが月次アップデートで『推論最適化モデル』をひっそり公開した。\nGPT-o1と異なり、推論ステップを内部で自動最適化する仕様。\n既存プロンプトが互換性を保ったまま、精度だけ3～5%向上する。\nこれまでのように『推論能力＝コスト増加』という因果関係が断たれた。",
+    "created_at": "2026-04-08T08:28:13.885Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-07",
@@ -627,13 +633,13 @@
   },
   "strategy": {
     "category_counts": {
-      "ai_news": 11,
+      "ai_news": 12,
       "ai_tips": 5,
       "cto_thought": 4,
       "industry_trend": 3,
       "tool_review": 2
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-04-05T06:29:12.280Z",
