@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548813
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-12",
+    "status": "pending",
+    "draft_text": "JSON Schema形式でプロンプト制約を強制すると、LLMの出力ぶれが劇的に減る。\n先月、コード生成タスク100回を『自由形式』と『Schema固定』で比較した。\nSchema版は構造エラーがゼロ。\n自由形式は12回失敗。\nこれ、Batch Processingと組み合わせるともっと威力がある。",
+    "created_at": "2026-04-12T08:18:58.207Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-10",
@@ -673,12 +679,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 12,
-      "ai_tips": 7,
+      "ai_tips": 8,
       "cto_thought": 4,
       "industry_trend": 3,
       "tool_review": 2
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-04-11T06:24:49.814Z",
