@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548813
+    "last_update_id": 853548814
   },
-  "pending": {
-    "id": "2026-04-12",
-    "status": "pending",
-    "draft_text": "JSON Schema形式でプロンプト制約を強制すると、LLMの出力ぶれが劇的に減る。\n先月、コード生成タスク100回を『自由形式』と『Schema固定』で比較した。\nSchema版は構造エラーがゼロ。\n自由形式は12回失敗。\nこれ、Batch Processingと組み合わせるともっと威力がある。",
-    "created_at": "2026-04-12T08:18:58.207Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-04-12",
+      "posted_at": "2026-04-12T08:49:24.668Z",
+      "tweet_id": "2043250118091255854",
+      "text": "JSON Schema形式でプロンプト制約を強制すると、LLMの出力ぶれが劇的に減る。\n先月、コード生成タスク100回を『自由形式』と『Schema固定』で比較した。\nSchema版は構造エラーがゼロ。\n自由形式は12回失敗。\nこれ、Batch Processingと組み合わせるともっと威力がある。",
+      "revision": 0
+    },
     {
       "id": "2026-04-10",
       "posted_at": "2026-04-11T08:24:49.555Z",
