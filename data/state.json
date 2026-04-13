@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548814
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-13",
+    "status": "pending",
+    "draft_text": "LLMの出力ぶれを制御したいなら、プロンプト内で『許容する形式』を限定することが最短ルートだ。\n先月、ある顧客の分析レポート生成で、毎回異なる構成が返ってくる問題に直面した。\nそこで出力形式をXML構造で『必ずこの順序で、この項目を含める』と強制した。",
+    "created_at": "2026-04-13T08:44:46.442Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-12",
@@ -696,12 +702,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 12,
-      "ai_tips": 8,
+      "ai_tips": 9,
       "cto_thought": 4,
       "industry_trend": 3,
       "tool_review": 2
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-04-11T06:24:49.814Z",
