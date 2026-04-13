@@ -9,14 +9,30 @@
       "posted_at": "2026-04-12T08:49:24.668Z",
       "tweet_id": "2043250118091255854",
       "text": "JSON Schema形式でプロンプト制約を強制すると、LLMの出力ぶれが劇的に減る。\n先月、コード生成タスク100回を『自由形式』と『Schema固定』で比較した。\nSchema版は構造エラーがゼロ。\n自由形式は12回失敗。\nこれ、Batch Processingと組み合わせるともっと威力がある。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 47,
+        "quote_count": 0,
+        "fetched_at": "2026-04-13T06:46:38.519Z"
+      }
     },
     {
       "id": "2026-04-10",
       "posted_at": "2026-04-11T08:24:49.555Z",
       "tweet_id": "2042881543283281941",
       "text": "プロンプトキャッシングは『テンプレ再利用』だと思ってる人が多い。\n実際には、システムプロンプト＋会話履歴＋リファレンスドキュメントを分離キャッシュできる。\n先月、コード設計レビュー用に50ページのアーキテクチャドキュメントをキャッシュ化した。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 3,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 54,
+        "quote_count": 0,
+        "fetched_at": "2026-04-13T06:46:38.519Z"
+      }
     },
     {
       "id": "2026-04-09",
@@ -28,9 +44,9 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 54,
+        "impression_count": 61,
         "quote_count": 0,
-        "fetched_at": "2026-04-11T06:24:39.914Z"
+        "fetched_at": "2026-04-13T06:46:38.519Z"
       }
     },
     {
@@ -43,9 +59,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 43,
+        "impression_count": 47,
         "quote_count": 0,
-        "fetched_at": "2026-04-11T06:24:39.914Z"
+        "fetched_at": "2026-04-13T06:46:38.519Z"
       }
     },
     {
@@ -58,9 +74,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 141,
+        "impression_count": 157,
         "quote_count": 0,
-        "fetched_at": "2026-04-11T06:24:39.914Z"
+        "fetched_at": "2026-04-13T06:46:38.519Z"
       }
     },
     {
@@ -73,9 +89,9 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 63,
+        "impression_count": 68,
         "quote_count": 0,
-        "fetched_at": "2026-04-11T06:24:39.914Z"
+        "fetched_at": "2026-04-13T06:46:38.519Z"
       }
     },
     {
@@ -88,9 +104,9 @@
         "like_count": 5,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 52,
+        "impression_count": 54,
         "quote_count": 0,
-        "fetched_at": "2026-04-11T06:24:39.914Z"
+        "fetched_at": "2026-04-13T06:46:38.519Z"
       }
     },
     {
