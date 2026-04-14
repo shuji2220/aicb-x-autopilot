@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548815
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-14",
+    "status": "pending",
+    "draft_text": "プロンプトの曖昧さが、開発速度の90%を左右する。\nスタートアップなら、まず『出力形式の統一』から始めるべき。\n先月、あるSaaS企業のAI機能開発で、毎回異なる出力が返ってくるせいで、バリデーション工程に工数が倍かかっていた。\nJSON Schemaで出力形式を強制したら、その工程が丸ごと消えた。",
+    "created_at": "2026-04-14T08:36:05.430Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-13",
@@ -703,12 +709,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 12,
-      "ai_tips": 9,
+      "ai_tips": 10,
       "cto_thought": 4,
       "industry_trend": 3,
       "tool_review": 2
     },
-    "target_index": 2
+    "target_index": 3
   },
   "analysis_insight": {
     "updated_at": "2026-04-11T06:24:49.814Z",
