@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548817
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-17",
+    "status": "pending",
+    "draft_text": "LLM導入で失敗する企業の真犯人は、モデル選択ではなく『質問構造の甘さ』だ。\n先月、ある金融SaaSが同じプロンプトで複数回実行したとき、回答の粒度がバラバラになる現象に直面した。\n原因は『誰向けの説明か』『どの精度レベルで返すか』をプロンプトに書いていなかったこと。",
+    "created_at": "2026-04-17T08:36:17.184Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-16",
@@ -742,11 +748,11 @@
     "category_counts": {
       "ai_news": 12,
       "ai_tips": 10,
-      "cto_thought": 5,
+      "cto_thought": 6,
       "industry_trend": 3,
       "tool_review": 2
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-04-17T06:40:30.198Z",
