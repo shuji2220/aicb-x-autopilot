@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548818
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-18",
+    "status": "pending",
+    "draft_text": "LLM導入で失敗する企業の8割は、GPT-4 vs Claude vs Geminiで時間を潰している。\n本当の課題はそこじゃない。\n先月、あるEC企業がプロンプトの『出力形式』を統一したら、バリデーション工程が5日→1日になった。\nモデルの差より、指示の明確さのほうが開発スピードに直結する。",
+    "created_at": "2026-04-18T08:16:16.654Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-17",
@@ -749,11 +755,11 @@
     "category_counts": {
       "ai_news": 12,
       "ai_tips": 10,
-      "cto_thought": 6,
+      "cto_thought": 7,
       "industry_trend": 3,
       "tool_review": 2
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-04-17T06:40:30.198Z",
