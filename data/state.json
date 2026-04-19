@@ -15,7 +15,15 @@
       "posted_at": "2026-04-17T09:16:45.385Z",
       "tweet_id": "2045068939139363312",
       "text": "LLM導入で失敗する企業の真犯人は、モデル選択ではなく『質問構造の甘さ』だ。\n先月、ある金融SaaSが同じプロンプトで複数回実行したとき、回答の粒度がバラバラになる現象に直面した。\n原因は『誰向けの説明か』『どの精度レベルで返すか』をプロンプトに書いていなかったこと。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 24,
+        "quote_count": 0,
+        "fetched_at": "2026-04-19T06:37:18.123Z"
+      }
     },
     {
       "id": "2026-04-16",
@@ -27,9 +35,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 38,
+        "impression_count": 50,
         "quote_count": 0,
-        "fetched_at": "2026-04-17T06:40:21.837Z"
+        "fetched_at": "2026-04-19T06:37:18.123Z"
       }
     },
     {
@@ -42,9 +50,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 30,
+        "impression_count": 34,
         "quote_count": 0,
-        "fetched_at": "2026-04-17T06:40:21.837Z"
+        "fetched_at": "2026-04-19T06:37:18.123Z"
       }
     },
     {
@@ -57,9 +65,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 78,
+        "impression_count": 82,
         "quote_count": 0,
-        "fetched_at": "2026-04-17T06:40:21.837Z"
+        "fetched_at": "2026-04-19T06:37:18.123Z"
       }
     },
     {
@@ -72,9 +80,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 111,
+        "impression_count": 118,
         "quote_count": 0,
-        "fetched_at": "2026-04-17T06:40:21.837Z"
+        "fetched_at": "2026-04-19T06:37:18.123Z"
       }
     },
     {
@@ -87,9 +95,9 @@
         "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 72,
+        "impression_count": 74,
         "quote_count": 0,
-        "fetched_at": "2026-04-17T06:40:21.837Z"
+        "fetched_at": "2026-04-19T06:37:18.123Z"
       }
     },
     {
@@ -104,7 +112,7 @@
         "reply_count": 0,
         "impression_count": 64,
         "quote_count": 0,
-        "fetched_at": "2026-04-17T06:40:21.837Z"
+        "fetched_at": "2026-04-19T06:37:18.123Z"
       }
     },
     {
