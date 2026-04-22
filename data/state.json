@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548820
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-22",
+    "status": "pending",
+    "draft_text": "LLMの性能で企業の勝ち負けが決まる時代は、もう終わった。\n今は『どのモデルを選ぶか』じゃなく『入力データの質をどこまで保証するか』で決まる。\nOpenAIがo1を有料化した本当の理由は、推論パワーへの課金じゃなく、ユーザーの質問構造が粗すぎることへの警告だ。",
+    "created_at": "2026-04-22T08:37:25.661Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-20",
@@ -780,10 +786,10 @@
       "ai_news": 12,
       "ai_tips": 10,
       "cto_thought": 8,
-      "industry_trend": 3,
+      "industry_trend": 4,
       "tool_review": 2
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-04-21T06:40:46.495Z",
