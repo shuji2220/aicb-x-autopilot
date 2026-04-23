@@ -9,14 +9,30 @@
       "posted_at": "2026-04-22T08:47:44.001Z",
       "tweet_id": "2046873574527451286",
       "text": "LLMの性能で企業の勝ち負けが決まる時代は、もう終わった。\n今は『どのモデルを選ぶか』じゃなく『入力データの質をどこまで保証するか』で決まる。\nOpenAIがo1を有料化した本当の理由は、推論パワーへの課金じゃなく、ユーザーの質問構造が粗すぎることへの警告だ。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 4,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 88,
+        "quote_count": 0,
+        "fetched_at": "2026-04-23T06:40:59.173Z"
+      }
     },
     {
       "id": "2026-04-20",
       "posted_at": "2026-04-21T08:39:43.025Z",
       "tweet_id": "2046509169298047482",
       "text": "モデルの性能競争に100万円投じる前に、プロンプト設計に1週間かけたほうが起業家には圧倒的に効く。\n先月、API costs削減コンサルで見た新興SaaSは、Claude 3.5の temperature を 0.2 に固定しただけで、出力ぶれが87%減。\nそもそも『最新モデル=最速開発』じゃない。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 62,
+        "quote_count": 0,
+        "fetched_at": "2026-04-23T06:40:59.174Z"
+      }
     },
     {
       "id": "2026-04-18",
@@ -28,9 +44,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 57,
+        "impression_count": 69,
         "quote_count": 0,
-        "fetched_at": "2026-04-21T06:40:36.713Z"
+        "fetched_at": "2026-04-23T06:40:59.174Z"
       }
     },
     {
@@ -43,9 +59,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 27,
+        "impression_count": 29,
         "quote_count": 0,
-        "fetched_at": "2026-04-21T06:40:36.714Z"
+        "fetched_at": "2026-04-23T06:40:59.174Z"
       }
     },
     {
@@ -58,9 +74,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 55,
+        "impression_count": 58,
         "quote_count": 0,
-        "fetched_at": "2026-04-21T06:40:36.714Z"
+        "fetched_at": "2026-04-23T06:40:59.174Z"
       }
     },
     {
@@ -73,9 +89,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 35,
+        "impression_count": 36,
         "quote_count": 0,
-        "fetched_at": "2026-04-21T06:40:36.714Z"
+        "fetched_at": "2026-04-23T06:40:59.174Z"
       }
     },
     {
@@ -90,7 +106,7 @@
         "reply_count": 0,
         "impression_count": 83,
         "quote_count": 0,
-        "fetched_at": "2026-04-21T06:40:36.714Z"
+        "fetched_at": "2026-04-23T06:40:59.174Z"
       }
     },
     {
