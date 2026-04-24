@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548822
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-24",
+    "status": "pending",
+    "draft_text": "LLM導入で勝つチームと負けるチームの差は、実はモデルじゃなく『PromptCaching』の活用有無で決まっている。\n先月、API costs削減の相談を受けた企業が同じプロンプトを1000回実行するバッチ処理で、従来の3倍高速化した。\n金銭的には月50万円のコスト削減。",
+    "created_at": "2026-04-24T08:43:21.079Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-23",
@@ -810,10 +816,10 @@
       "ai_news": 12,
       "ai_tips": 10,
       "cto_thought": 8,
-      "industry_trend": 5,
+      "industry_trend": 6,
       "tool_review": 2
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-04-21T06:40:46.495Z",
