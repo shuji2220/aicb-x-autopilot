@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548824
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-04-27",
+    "status": "pending",
+    "draft_text": "Batch APIを本気で使ってるチームが、LLM導入で勝ってる。\nレイテンシ許容できるタスク（ログ解析、データ変換、一括スコアリング）なら、通常APIの半額以下で動く。\n先月見たフィンテックは月間800万のAPI費用を480万に圧縮。",
+    "created_at": "2026-04-27T08:53:33.598Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-04-26",
@@ -849,9 +855,9 @@
       "ai_tips": 10,
       "cto_thought": 8,
       "industry_trend": 6,
-      "tool_review": 3
+      "tool_review": 4
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-04-27T06:56:04.024Z",
