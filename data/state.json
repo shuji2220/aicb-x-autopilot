@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548826
+    "last_update_id": 853548827
   },
-  "pending": {
-    "id": "2026-04-29",
-    "status": "pending",
-    "draft_text": "Claude 3.5 Sonnetのコンテキスト200Kは、単なるスペック増強じゃない。\n長いドキュメント全体をPromptCachingで保持できるから、毎回の入力トークン費用が激減する。\n先週見たLegalTechチーム、契約書100件を一度に分析させた。\nAPI費用は従来の25%で済んだ。\nGPT-4oは128Kが天井。",
-    "created_at": "2026-04-29T08:48:47.348Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-04-29",
+      "posted_at": "2026-04-30T08:48:50.011Z",
+      "tweet_id": "2049772954305573142",
+      "text": "Claude 3.5 Sonnetのコンテキスト200Kは、単なるスペック増強じゃない。\n長いドキュメント全体をPromptCachingで保持できるから、毎回の入力トークン費用が激減する。\n先週見たLegalTechチーム、契約書100件を一度に分析させた。\nAPI費用は従来の25%で済んだ。\nGPT-4oは128Kが天井。",
+      "revision": 0
+    },
     {
       "id": "2026-04-28",
       "posted_at": "2026-04-28T09:02:35.874Z",
