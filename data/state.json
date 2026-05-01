@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548827
+    "last_update_id": 853548828
   },
-  "pending": {
-    "id": "2026-05-01",
-    "status": "pending",
-    "draft_text": "Google Gemini 2.0が無料層で利用可能になった。\nこれ、Claude無料版やChatGPT無料版との差は『マルチモーダル処理』がデフォで入ってることだ。\nスタートアップにとっては画像認識・PDF処理をAPI課金なしで試せるようになったのは地味に大きい。\nPricelistを見直す時期だよ、本当に。",
-    "created_at": "2026-05-01T08:41:59.355Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-05-01",
+      "posted_at": "2026-05-01T08:52:27.074Z",
+      "tweet_id": "2050136252654166352",
+      "text": "Google Gemini 2.0が無料層で利用可能になった。\nこれ、Claude無料版やChatGPT無料版との差は『マルチモーダル処理』がデフォで入ってることだ。\nスタートアップにとっては画像認識・PDF処理をAPI課金なしで試せるようになったのは地味に大きい。\nPricelistを見直す時期だよ、本当に。",
+      "revision": 0
+    },
     {
       "id": "2026-04-29",
       "posted_at": "2026-04-30T08:48:50.011Z",
