@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548828
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-05-02",
+    "status": "pending",
+    "draft_text": "OpenAIが公式で『複数モデルの使い分け』を推奨し始めた。\no1は推論が必要なタスク、GPT-4oは高速応答が必要なタスク、という棲み分けだ。\nつまり『最強モデルを探す』という議論はもう終わり。\n大事なのは『どのタスクに何を割り当てるか』という実装設計だ。",
+    "created_at": "2026-05-02T08:32:55.046Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-05-01",
@@ -897,13 +903,13 @@
   },
   "strategy": {
     "category_counts": {
-      "ai_news": 15,
+      "ai_news": 16,
       "ai_tips": 10,
       "cto_thought": 8,
       "industry_trend": 6,
       "tool_review": 4
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-05-01T06:57:31.140Z",
