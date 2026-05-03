@@ -9,14 +9,30 @@
       "posted_at": "2026-05-02T08:43:16.954Z",
       "tweet_id": "2050496333149299153",
       "text": "OpenAIが公式で『複数モデルの使い分け』を推奨し始めた。\no1は推論が必要なタスク、GPT-4oは高速応答が必要なタスク、という棲み分けだ。\nつまり『最強モデルを探す』という議論はもう終わり。\n大事なのは『どのタスクに何を割り当てるか』という実装設計だ。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 23,
+        "quote_count": 0,
+        "fetched_at": "2026-05-03T06:53:33.942Z"
+      }
     },
     {
       "id": "2026-05-01",
       "posted_at": "2026-05-01T08:52:27.074Z",
       "tweet_id": "2050136252654166352",
       "text": "Google Gemini 2.0が無料層で利用可能になった。\nこれ、Claude無料版やChatGPT無料版との差は『マルチモーダル処理』がデフォで入ってることだ。\nスタートアップにとっては画像認識・PDF処理をAPI課金なしで試せるようになったのは地味に大きい。\nPricelistを見直す時期だよ、本当に。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 52,
+        "quote_count": 0,
+        "fetched_at": "2026-05-03T06:53:33.943Z"
+      }
     },
     {
       "id": "2026-04-29",
@@ -28,9 +44,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 53,
+        "impression_count": 60,
         "quote_count": 0,
-        "fetched_at": "2026-05-01T06:57:22.640Z"
+        "fetched_at": "2026-05-03T06:53:33.943Z"
       }
     },
     {
@@ -45,7 +61,7 @@
         "reply_count": 0,
         "impression_count": 29,
         "quote_count": 0,
-        "fetched_at": "2026-05-01T06:57:22.641Z"
+        "fetched_at": "2026-05-03T06:53:33.943Z"
       }
     },
     {
@@ -60,7 +76,7 @@
         "reply_count": 0,
         "impression_count": 47,
         "quote_count": 0,
-        "fetched_at": "2026-05-01T06:57:22.641Z"
+        "fetched_at": "2026-05-03T06:53:33.943Z"
       }
     },
     {
@@ -73,9 +89,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 74,
+        "impression_count": 85,
         "quote_count": 0,
-        "fetched_at": "2026-05-01T06:57:22.641Z"
+        "fetched_at": "2026-05-03T06:53:33.943Z"
       }
     },
     {
@@ -88,9 +104,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 51,
+        "impression_count": 52,
         "quote_count": 0,
-        "fetched_at": "2026-05-01T06:57:22.641Z"
+        "fetched_at": "2026-05-03T06:53:33.943Z"
       }
     },
     {
