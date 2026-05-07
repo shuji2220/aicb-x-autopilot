@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548832
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-05-07",
+    "status": "pending",
+    "draft_text": "LLMの出力がブレるのは、モデルじゃなくシステムプロンプトの指示が曖昧だからだ。\nAPI連携する際、『正確な結果を返せ』という指示では再現性が50%以下になる。\n『JSON形式で、キーは英数字のみ、配列は最大10件まで』という粒度で書くと安定性が一気に上がる。",
+    "created_at": "2026-05-07T08:56:19.498Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-05-06",
@@ -966,12 +972,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 18,
-      "ai_tips": 11,
+      "ai_tips": 12,
       "cto_thought": 8,
       "industry_trend": 6,
       "tool_review": 4
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-05-07T07:02:11.512Z",
