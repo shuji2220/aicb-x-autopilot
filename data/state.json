@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548834
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-05-10",
+    "status": "pending",
+    "draft_text": "LLMの出力がブレる原因は、モデルの性能じゃなくて、あなたのプロンプトが『曖昧』だからだ。\n『正確に返せ』と言うのと『JSON形式で、キーはsnake_case、値は必ず文字列型で、Null値は許可しない』と言うのでは、再現性が50%→95%に跳ね上がる。",
+    "created_at": "2026-05-10T08:39:18.104Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-05-08",
@@ -988,12 +994,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 18,
-      "ai_tips": 13,
+      "ai_tips": 14,
       "cto_thought": 8,
       "industry_trend": 6,
       "tool_review": 4
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-05-09T06:45:37.068Z",
