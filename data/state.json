@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548836
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-05-13",
+    "status": "pending",
+    "draft_text": "Prompt Cachingは、同じシステムプロンプトを何度も送信するコストを大幅削減できるのに、まだ導入している企業が少ない。\n理由は『セットアップが面倒』という誤解だ。\nOpenAIのAPIで4KB以上のプロンプトをキャッシュすると、2回目以降のリクエストコストが90%削減される。\n実装は5分で終わる。",
+    "created_at": "2026-05-13T09:03:29.979Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-05-12",
@@ -1027,11 +1033,11 @@
     "category_counts": {
       "ai_news": 18,
       "ai_tips": 15,
-      "cto_thought": 8,
+      "cto_thought": 9,
       "industry_trend": 6,
       "tool_review": 4
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-05-13T07:05:11.441Z",
