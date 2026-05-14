@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548837
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-05-14",
+    "status": "pending",
+    "draft_text": "LLMの出力がブレるなら、モデルを変える前に、あなたのスキーマを見直すべきだ。\n『JSON形式で返せ』は指示じゃなく願いである。\n『キーはsnake_case、null不許可、配列は最大5件、数値は0～100範囲』と書くと、同じプロンプトで再現性が劇的に上がる。",
+    "created_at": "2026-05-14T08:58:33.873Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-05-13",
@@ -1034,11 +1040,11 @@
     "category_counts": {
       "ai_news": 18,
       "ai_tips": 15,
-      "cto_thought": 9,
+      "cto_thought": 10,
       "industry_trend": 6,
       "tool_review": 4
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-05-13T07:05:11.441Z",
