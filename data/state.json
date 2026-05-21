@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548842
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-05-21",
+    "status": "pending",
+    "draft_text": "API費用が月50万円超になる企業の相談を受けると、大抵『もっと安いモデルに乗り換えたい』という話から始まる。\n違う。\n問題はそこじゃない。\n同じ出力品質なら、リクエスト構造を変えるだけで月20～30万円削減できる。",
+    "created_at": "2026-05-21T09:10:38.019Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-05-20",
@@ -1103,10 +1109,10 @@
       "ai_news": 18,
       "ai_tips": 15,
       "cto_thought": 12,
-      "industry_trend": 7,
+      "industry_trend": 8,
       "tool_review": 4
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-05-21T07:20:01.099Z",
