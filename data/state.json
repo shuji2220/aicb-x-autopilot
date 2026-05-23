@@ -9,7 +9,15 @@
       "posted_at": "2026-05-22T09:08:45.513Z",
       "tweet_id": "2057750501777670482",
       "text": "API費用が月50万円超になる企業の相談を受けると、大抵『もっと安いモデルに乗り換えたい』という話から始まる。\n違う。\n問題はそこじゃない。\n同じ出力品質なら、リクエスト構造を変えるだけで月20～30万円削減できる。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 13,
+        "quote_count": 0,
+        "fetched_at": "2026-05-23T06:56:58.916Z"
+      }
     },
     {
       "id": "2026-05-20",
@@ -21,9 +29,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 52,
+        "impression_count": 55,
         "quote_count": 0,
-        "fetched_at": "2026-05-21T07:19:52.366Z"
+        "fetched_at": "2026-05-23T06:56:58.916Z"
       }
     },
     {
@@ -36,9 +44,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 38,
+        "impression_count": 39,
         "quote_count": 0,
-        "fetched_at": "2026-05-21T07:19:52.366Z"
+        "fetched_at": "2026-05-23T06:56:58.916Z"
       }
     },
     {
@@ -53,7 +61,7 @@
         "reply_count": 0,
         "impression_count": 41,
         "quote_count": 0,
-        "fetched_at": "2026-05-21T07:19:52.366Z"
+        "fetched_at": "2026-05-23T06:56:58.916Z"
       }
     },
     {
@@ -66,9 +74,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 60,
+        "impression_count": 65,
         "quote_count": 0,
-        "fetched_at": "2026-05-21T07:19:52.366Z"
+        "fetched_at": "2026-05-23T06:56:58.916Z"
       }
     },
     {
@@ -83,7 +91,7 @@
         "reply_count": 0,
         "impression_count": 57,
         "quote_count": 0,
-        "fetched_at": "2026-05-21T07:19:52.366Z"
+        "fetched_at": "2026-05-23T06:56:58.916Z"
       }
     },
     {
@@ -98,7 +106,7 @@
         "reply_count": 0,
         "impression_count": 45,
         "quote_count": 0,
-        "fetched_at": "2026-05-21T07:19:52.366Z"
+        "fetched_at": "2026-05-23T06:56:58.916Z"
       }
     },
     {
