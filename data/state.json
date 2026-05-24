@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548843
+    "last_update_id": 853548844
   },
-  "pending": {
-    "id": "2026-05-23",
-    "status": "pending",
-    "draft_text": "2026年のLLM戦場は『モデルスペック』から『入力設計』へ完全シフトした。\nGPT-4o、Claude 3.5 Sonnet、Gemini 2.0の精度差はもう誤差レベル。\n差がつくのは『あなたが指示をどれだけ厳密に書けるか』だ。",
-    "created_at": "2026-05-23T08:43:57.038Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-05-23",
+      "posted_at": "2026-05-24T09:03:57.848Z",
+      "tweet_id": "2058474070841164227",
+      "text": "2026年のLLM戦場は『モデルスペック』から『入力設計』へ完全シフトした。\nGPT-4o、Claude 3.5 Sonnet、Gemini 2.0の精度差はもう誤差レベル。\n差がつくのは『あなたが指示をどれだけ厳密に書けるか』だ。",
+      "revision": 0
+    },
     {
       "id": "2026-05-21",
       "posted_at": "2026-05-22T09:08:45.513Z",
