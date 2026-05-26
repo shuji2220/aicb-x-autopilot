@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548845
+    "last_update_id": 853548846
   },
-  "pending": {
-    "id": "2026-05-26",
-    "status": "pending",
-    "draft_text": "Claude 3.5 SonnetのContext Window は200万トークン。\n大抵の企業はこれを『大きいな』くらいで終わらせてる。\n実は、ここが費用対効果の最大の穴だ。\nコードベース全体をPrompt Cachingで固定化して、1リクエストで複数タスク処理すると月のAPI費用が30～40%削減できる。",
-    "created_at": "2026-05-26T09:12:28.702Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-05-26",
+      "posted_at": "2026-05-26T09:32:55.708Z",
+      "tweet_id": "2059206135668707429",
+      "text": "Claude 3.5 SonnetのContext Window は200万トークン。\n大抵の企業はこれを『大きいな』くらいで終わらせてる。\n実は、ここが費用対効果の最大の穴だ。\nコードベース全体をPrompt Cachingで固定化して、1リクエストで複数タスク処理すると月のAPI費用が30～40%削減できる。",
+      "revision": 0
+    },
     {
       "id": "2026-05-25",
       "posted_at": "2026-05-25T09:43:39.781Z",
