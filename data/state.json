@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548846
+    "last_update_id": 853548847
   },
-  "pending": {
-    "id": "2026-05-27",
-    "status": "pending",
-    "draft_text": "Gemini 2.0が速度でGPT-4oを抜いた。\n業界ニュースとして終わらせるのは勿体ない。\n同じレイテンシーならToken削減戦略が変わる。\n従来はCaching容量でClaude選んでた。\n今は処理速度でGemini、という選択肢が現実的になった。\nあなたのチーム、もう検証した？",
-    "created_at": "2026-05-27T09:11:12.872Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-05-27",
+      "posted_at": "2026-05-27T09:21:43.682Z",
+      "tweet_id": "2059565704911990804",
+      "text": "Gemini 2.0が速度でGPT-4oを抜いた。\n業界ニュースとして終わらせるのは勿体ない。\n同じレイテンシーならToken削減戦略が変わる。\n従来はCaching容量でClaude選んでた。\n今は処理速度でGemini、という選択肢が現実的になった。\nあなたのチーム、もう検証した？",
+      "revision": 0
+    },
     {
       "id": "2026-05-26",
       "posted_at": "2026-05-26T09:32:55.708Z",
