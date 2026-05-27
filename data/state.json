@@ -1740,6 +1740,13 @@
         "tweet_count": 777,
         "listed_count": 1,
         "fetched_at": "2026-05-26T01:07:32.670Z"
+      },
+      {
+        "followers_count": 234,
+        "following_count": 396,
+        "tweet_count": 778,
+        "listed_count": 1,
+        "fetched_at": "2026-05-27T01:11:50.845Z"
       }
     ]
   }
