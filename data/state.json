@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548847
+    "last_update_id": 853548848
   },
-  "pending": {
-    "id": "2026-05-28",
-    "status": "pending",
-    "draft_text": "OpenAIがo1を有料化した瞬間、AI業界の戦場が変わった。\nモデルの性能差はもう誤差。\nGPT-4o、Claude、Gemini 2.0を比べても、実務上は区別つかない。\n勝敗を分けるのは『入力設計』だ。\nJSON Schemaで出力を厳密に指定するだけで、精度が+15%変わる。",
-    "created_at": "2026-05-28T09:17:35.026Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-05-28",
+      "posted_at": "2026-05-28T09:28:02.747Z",
+      "tweet_id": "2059929682641141989",
+      "text": "OpenAIがo1を有料化した瞬間、AI業界の戦場が変わった。\nモデルの性能差はもう誤差。\nGPT-4o、Claude、Gemini 2.0を比べても、実務上は区別つかない。\n勝敗を分けるのは『入力設計』だ。\nJSON Schemaで出力を厳密に指定するだけで、精度が+15%変わる。",
+      "revision": 0
+    },
     {
       "id": "2026-05-27",
       "posted_at": "2026-05-27T09:21:43.682Z",
