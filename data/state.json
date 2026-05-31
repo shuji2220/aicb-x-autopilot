@@ -9,7 +9,15 @@
       "posted_at": "2026-05-30T08:50:49.046Z",
       "tweet_id": "2060645089580314692",
       "text": "Claude Sonnet の200万トークンは『あれば十分』という勘違いが多い。\n起業家が見落としてるのは、Context Window の大きさじゃなく『キャッシュの再利用率』だ。\n同じシステムプロンプトを毎回送信してる企業は月の費用が3割高い。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 27,
+        "quote_count": 0,
+        "fetched_at": "2026-05-31T07:20:45.426Z"
+      }
     },
     {
       "id": "2026-05-28",
@@ -21,9 +29,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "impression_count": 43,
+        "impression_count": 74,
         "quote_count": 0,
-        "fetched_at": "2026-05-29T07:22:59.326Z"
+        "fetched_at": "2026-05-31T07:20:45.426Z"
       }
     },
     {
@@ -36,9 +44,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 51,
+        "impression_count": 67,
         "quote_count": 0,
-        "fetched_at": "2026-05-29T07:22:59.326Z"
+        "fetched_at": "2026-05-31T07:20:45.426Z"
       }
     },
     {
@@ -51,9 +59,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 42,
+        "impression_count": 55,
         "quote_count": 0,
-        "fetched_at": "2026-05-29T07:22:59.326Z"
+        "fetched_at": "2026-05-31T07:20:45.426Z"
       }
     },
     {
@@ -66,9 +74,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 30,
+        "impression_count": 37,
         "quote_count": 0,
-        "fetched_at": "2026-05-29T07:22:59.326Z"
+        "fetched_at": "2026-05-31T07:20:45.426Z"
       }
     },
     {
@@ -81,9 +89,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 98,
+        "impression_count": 105,
         "quote_count": 0,
-        "fetched_at": "2026-05-29T07:22:59.326Z"
+        "fetched_at": "2026-05-31T07:20:45.426Z"
       }
     },
     {
@@ -96,9 +104,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 21,
+        "impression_count": 27,
         "quote_count": 0,
-        "fetched_at": "2026-05-29T07:22:59.326Z"
+        "fetched_at": "2026-05-31T07:20:45.426Z"
       }
     },
     {
