@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548850
+    "last_update_id": 853548851
   },
-  "pending": {
-    "id": "2026-06-01",
-    "status": "pending",
-    "draft_text": "Claude 3.5 Sonnetを導入して『速度が上がった』『精度が上がった』で止まってる企業が多い。\n実装レベルではもう1段階ある。\nStreaming出力とPrompt Cachingを組み合わせると、同じAPI費用で3倍の処理量をさばける。\nコードベース解析→キャッシュ化→クエリ処理という流れが定型化してきた。",
-    "created_at": "2026-06-01T09:52:32.167Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-06-01",
+      "posted_at": "2026-06-02T09:39:54.965Z",
+      "tweet_id": "2061744609001402553",
+      "text": "Claude 3.5 Sonnetを導入して『速度が上がった』『精度が上がった』で止まってる企業が多い。\n実装レベルではもう1段階ある。\nStreaming出力とPrompt Cachingを組み合わせると、同じAPI費用で3倍の処理量をさばける。\nコードベース解析→キャッシュ化→クエリ処理という流れが定型化してきた。",
+      "revision": 0
+    },
     {
       "id": "2026-05-31",
       "posted_at": "2026-05-31T09:35:30.515Z",
