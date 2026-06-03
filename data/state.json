@@ -9,7 +9,15 @@
       "posted_at": "2026-06-02T09:39:54.965Z",
       "tweet_id": "2061744609001402553",
       "text": "Claude 3.5 Sonnetを導入して『速度が上がった』『精度が上がった』で止まってる企業が多い。\n実装レベルではもう1段階ある。\nStreaming出力とPrompt Cachingを組み合わせると、同じAPI費用で3倍の処理量をさばける。\nコードベース解析→キャッシュ化→クエリ処理という流れが定型化してきた。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 99,
+        "quote_count": 0,
+        "fetched_at": "2026-06-03T07:44:24.274Z"
+      }
     },
     {
       "id": "2026-05-31",
@@ -21,9 +29,9 @@
         "like_count": 4,
         "retweet_count": 0,
         "reply_count": 1,
-        "impression_count": 48,
+        "impression_count": 78,
         "quote_count": 0,
-        "fetched_at": "2026-06-01T07:48:44.743Z"
+        "fetched_at": "2026-06-03T07:44:24.275Z"
       }
     },
     {
@@ -36,9 +44,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 32,
+        "impression_count": 41,
         "quote_count": 0,
-        "fetched_at": "2026-06-01T07:48:44.743Z"
+        "fetched_at": "2026-06-03T07:44:24.275Z"
       }
     },
     {
@@ -51,9 +59,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "impression_count": 77,
+        "impression_count": 91,
         "quote_count": 0,
-        "fetched_at": "2026-06-01T07:48:44.743Z"
+        "fetched_at": "2026-06-03T07:44:24.275Z"
       }
     },
     {
@@ -66,9 +74,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 70,
+        "impression_count": 78,
         "quote_count": 0,
-        "fetched_at": "2026-06-01T07:48:44.743Z"
+        "fetched_at": "2026-06-03T07:44:24.275Z"
       }
     },
     {
@@ -81,9 +89,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 57,
+        "impression_count": 61,
         "quote_count": 0,
-        "fetched_at": "2026-06-01T07:48:44.743Z"
+        "fetched_at": "2026-06-03T07:44:24.275Z"
       }
     },
     {
@@ -96,9 +104,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 39,
+        "impression_count": 40,
         "quote_count": 0,
-        "fetched_at": "2026-06-01T07:48:44.743Z"
+        "fetched_at": "2026-06-03T07:44:24.275Z"
       }
     },
     {
