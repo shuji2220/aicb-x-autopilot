@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548853
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-06-07",
+    "status": "pending",
+    "draft_text": "LLMの出力をJSON Schemaで固定化しないエンジニアが多い。\n『構造化出力はあると便利』程度で終わらせてるけど、実装レベルでは別だ。\nSchema指定時とそうでない場合、Tokenの無駄が全然違う。\n同じプロンプトでも、曖昧な指示より厳密なSchema設定が、Token削減に直結する。",
+    "created_at": "2026-06-07T09:05:29.713Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-06-04",
@@ -1266,12 +1272,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 24,
-      "ai_tips": 16,
+      "ai_tips": 17,
       "cto_thought": 12,
       "industry_trend": 9,
       "tool_review": 6
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-06-07T07:26:13.040Z",
