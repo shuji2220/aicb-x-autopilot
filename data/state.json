@@ -15,7 +15,15 @@
       "posted_at": "2026-06-07T09:15:53.166Z",
       "tweet_id": "2063550501170683996",
       "text": "LLMの出力をJSON Schemaで固定化しないエンジニアが多い。\n『構造化出力はあると便利』程度で終わらせてるけど、実装レベルでは別だ。\nSchema指定時とそうでない場合、Tokenの無駄が全然違う。\n同じプロンプトでも、曖昧な指示より厳密なSchema設定が、Token削減に直結する。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 9,
+        "quote_count": 0,
+        "fetched_at": "2026-06-09T07:16:45.079Z"
+      }
     },
     {
       "id": "2026-06-04",
@@ -27,9 +35,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 12,
+        "impression_count": 15,
         "quote_count": 0,
-        "fetched_at": "2026-06-07T07:26:04.531Z"
+        "fetched_at": "2026-06-09T07:16:45.079Z"
       }
     },
     {
@@ -42,9 +50,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 48,
+        "impression_count": 50,
         "quote_count": 0,
-        "fetched_at": "2026-06-07T07:26:04.531Z"
+        "fetched_at": "2026-06-09T07:16:45.079Z"
       }
     },
     {
@@ -59,7 +67,7 @@
         "reply_count": 0,
         "impression_count": 111,
         "quote_count": 0,
-        "fetched_at": "2026-06-07T07:26:04.531Z"
+        "fetched_at": "2026-06-09T07:16:45.079Z"
       }
     },
     {
@@ -72,9 +80,9 @@
         "like_count": 5,
         "retweet_count": 0,
         "reply_count": 1,
-        "impression_count": 83,
+        "impression_count": 85,
         "quote_count": 0,
-        "fetched_at": "2026-06-07T07:26:04.531Z"
+        "fetched_at": "2026-06-09T07:16:45.079Z"
       }
     },
     {
@@ -89,7 +97,7 @@
         "reply_count": 0,
         "impression_count": 46,
         "quote_count": 0,
-        "fetched_at": "2026-06-07T07:26:04.531Z"
+        "fetched_at": "2026-06-09T07:16:45.079Z"
       }
     },
     {
@@ -104,7 +112,7 @@
         "reply_count": 1,
         "impression_count": 96,
         "quote_count": 0,
-        "fetched_at": "2026-06-07T07:26:04.531Z"
+        "fetched_at": "2026-06-09T07:16:45.079Z"
       }
     },
     {
