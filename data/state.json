@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548856
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-06-11",
+    "status": "pending",
+    "draft_text": "JSON Schemaなしでプロンプト書く人、実はToken消費が1.3倍以上になってる。\n『出力形式をJSONで』という曖昧な指示だと、LLMが確実性を求めて冗長な思考ステップを挟む。\nSchema指定なら構造が確定してるから、その分のToken節約できる。",
+    "created_at": "2026-06-11T09:32:01.336Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-06-08",
@@ -1296,12 +1302,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 24,
-      "ai_tips": 18,
+      "ai_tips": 19,
       "cto_thought": 12,
       "industry_trend": 9,
       "tool_review": 6
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-06-07T07:26:13.040Z",
