@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548858
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-06-14",
+    "status": "pending",
+    "draft_text": "新しいLLMが出る度にベンチマーク比較してる企業が多いが、実は無意味だ。\nモデルの精度差より『入力データの前処理』の方が出力品質に効く。\n同じプロンプトでも、質問の順序を整理して投げるだけで、回答の一貫性が30%上がる。\nベンチマークスコアより『自社データでの実測値』を重視してる？",
+    "created_at": "2026-06-14T09:07:55.479Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-06-12",
@@ -1319,11 +1325,11 @@
     "category_counts": {
       "ai_news": 24,
       "ai_tips": 20,
-      "cto_thought": 12,
+      "cto_thought": 13,
       "industry_trend": 9,
       "tool_review": 6
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-06-13T07:21:24.966Z",
