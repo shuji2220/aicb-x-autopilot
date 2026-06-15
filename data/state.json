@@ -15,7 +15,15 @@
       "posted_at": "2026-06-13T09:46:38.401Z",
       "tweet_id": "2065732567953744028",
       "text": "起業家の多くは『モデル選び』に時間かけるが、本当の課題は『何をどう投げるか』だ。\n同じ質問でも、前後関係を整理して投げると、LLMの探索範囲が激減する。\n結果、出力Tokenが40%削減。\n つまりAPIコストが勝手に下がる。\nあなたのチームは入力設計まで最適化してる？",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 16,
+        "quote_count": 0,
+        "fetched_at": "2026-06-15T08:02:17.565Z"
+      }
     },
     {
       "id": "2026-06-11",
@@ -27,9 +35,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 15,
+        "impression_count": 17,
         "quote_count": 0,
-        "fetched_at": "2026-06-13T07:21:07.959Z"
+        "fetched_at": "2026-06-15T08:02:17.566Z"
       }
     },
     {
@@ -42,9 +50,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 24,
+        "impression_count": 26,
         "quote_count": 0,
-        "fetched_at": "2026-06-13T07:21:07.959Z"
+        "fetched_at": "2026-06-15T08:02:17.566Z"
       }
     },
     {
@@ -57,9 +65,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 14,
+        "impression_count": 16,
         "quote_count": 0,
-        "fetched_at": "2026-06-13T07:21:07.959Z"
+        "fetched_at": "2026-06-15T08:02:17.566Z"
       }
     },
     {
@@ -72,9 +80,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 19,
+        "impression_count": 21,
         "quote_count": 0,
-        "fetched_at": "2026-06-13T07:21:07.959Z"
+        "fetched_at": "2026-06-15T08:02:17.566Z"
       }
     },
     {
@@ -87,9 +95,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 50,
+        "impression_count": 52,
         "quote_count": 0,
-        "fetched_at": "2026-06-13T07:21:07.959Z"
+        "fetched_at": "2026-06-15T08:02:17.566Z"
       }
     },
     {
@@ -102,9 +110,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 111,
+        "impression_count": 113,
         "quote_count": 0,
-        "fetched_at": "2026-06-13T07:21:07.959Z"
+        "fetched_at": "2026-06-15T08:02:17.566Z"
       }
     },
     {
