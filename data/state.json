@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548859
+    "last_update_id": 853548860
   },
-  "pending": {
-    "id": "2026-06-18",
-    "status": "pending",
-    "draft_text": "Prompt Cachingを『使ってる』と『使いこなしてる』では、API請求が倍違う。\n多くのチームは固定コンテキストをCacheに乗せるだけで満足してる。\nでも実装の詰めが甘いと、結局Cacheヒット率が60%以下のまま。",
-    "created_at": "2026-06-18T09:32:57.762Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-06-18",
+      "posted_at": "2026-06-19T09:38:06.635Z",
+      "tweet_id": "2067904748590899470",
+      "text": "Prompt Cachingを『使ってる』と『使いこなしてる』では、API請求が倍違う。\n多くのチームは固定コンテキストをCacheに乗せるだけで満足してる。\nでも実装の詰めが甘いと、結局Cacheヒット率が60%以下のまま。",
+      "revision": 0
+    },
     {
       "id": "2026-06-14",
       "posted_at": "2026-06-17T09:51:46.567Z",
