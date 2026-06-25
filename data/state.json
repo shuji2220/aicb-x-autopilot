@@ -17,12 +17,12 @@
       "text": "Agentic AIが『自動で意思決定する魔法』みたいに報じられてるが、実装現場は全然違う。\n結局のところ、LLMに『何を考えさせるか』『どの順序で判断させるか』の設計が95%を占める。\nモデル自体の知能より、タスク分解とプロンプト層の作り込みで結果が決まる。",
       "revision": 0,
       "metrics": {
-        "like_count": 3,
+        "like_count": 5,
         "retweet_count": 0,
         "reply_count": 2,
-        "impression_count": 12,
+        "impression_count": 36,
         "quote_count": 0,
-        "fetched_at": "2026-06-23T07:17:14.116Z"
+        "fetched_at": "2026-06-25T07:14:07.821Z"
       }
     },
     {
@@ -32,12 +32,12 @@
       "text": "Prompt Cachingを『使ってる』と『使いこなしてる』では、API請求が倍違う。\n多くのチームは固定コンテキストをCacheに乗せるだけで満足してる。\nでも実装の詰めが甘いと、結局Cacheヒット率が60%以下のまま。",
       "revision": 0,
       "metrics": {
-        "like_count": 1,
+        "like_count": 3,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 21,
+        "impression_count": 32,
         "quote_count": 0,
-        "fetched_at": "2026-06-23T07:17:14.116Z"
+        "fetched_at": "2026-06-25T07:14:07.821Z"
       }
     },
     {
@@ -52,7 +52,7 @@
         "reply_count": 1,
         "impression_count": 18,
         "quote_count": 0,
-        "fetched_at": "2026-06-23T07:17:14.116Z"
+        "fetched_at": "2026-06-25T07:14:07.821Z"
       }
     },
     {
@@ -67,7 +67,7 @@
         "reply_count": 0,
         "impression_count": 21,
         "quote_count": 0,
-        "fetched_at": "2026-06-23T07:17:14.116Z"
+        "fetched_at": "2026-06-25T07:14:07.821Z"
       }
     },
     {
@@ -82,7 +82,7 @@
         "reply_count": 0,
         "impression_count": 20,
         "quote_count": 0,
-        "fetched_at": "2026-06-23T07:17:14.116Z"
+        "fetched_at": "2026-06-25T07:14:07.821Z"
       }
     },
     {
@@ -97,7 +97,7 @@
         "reply_count": 0,
         "impression_count": 29,
         "quote_count": 0,
-        "fetched_at": "2026-06-23T07:17:14.116Z"
+        "fetched_at": "2026-06-25T07:14:07.821Z"
       }
     },
     {
@@ -112,7 +112,7 @@
         "reply_count": 0,
         "impression_count": 17,
         "quote_count": 0,
-        "fetched_at": "2026-06-23T07:17:14.116Z"
+        "fetched_at": "2026-06-25T07:14:07.821Z"
       }
     },
     {
