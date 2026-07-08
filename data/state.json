@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548864
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-07-08",
+    "status": "pending",
+    "draft_text": "2026年のAI導入失敗の8割は、モデル選択で意思決定を終わらせてる。\n『GPT-4oか Claude 3.5か』で時間を使ってしまう企業が本当に多い。\n実装現場では、モデルの知能差より『質問の前処理』と『出力スキーマ設計』が出力品質を左右してる。",
+    "created_at": "2026-07-08T10:13:16.487Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-07-04",
@@ -1410,10 +1416,10 @@
       "ai_news": 24,
       "ai_tips": 20,
       "cto_thought": 16,
-      "industry_trend": 11,
+      "industry_trend": 12,
       "tool_review": 6
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-07-05T08:48:21.961Z",
