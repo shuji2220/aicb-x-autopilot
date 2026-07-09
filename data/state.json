@@ -9,14 +9,30 @@
       "posted_at": "2026-07-08T10:43:44.706Z",
       "tweet_id": "2074806635462078681",
       "text": "2026年のAI導入失敗の8割は、モデル選択で意思決定を終わらせてる。\n『GPT-4oか Claude 3.5か』で時間を使ってしまう企業が本当に多い。\n実装現場では、モデルの知能差より『質問の前処理』と『出力スキーマ設計』が出力品質を左右してる。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 1,
+        "impression_count": 35,
+        "quote_count": 0,
+        "fetched_at": "2026-07-09T09:33:18.773Z"
+      }
     },
     {
       "id": "2026-07-04",
       "posted_at": "2026-07-07T11:02:34.889Z",
       "tweet_id": "2074448987864584249",
       "text": "RAG導入で失敗してる企業の9割は、高性能LLMを選ぶことに時間を費やしてる。\n実装現場では違う。\nモデルの知能より『何をどうして検索するか』の戦略で、精度が3倍変わる。\n同じベクトルDB、同じクエリなのに、検索前の質問を正規化するだけで、適切なドキュメント抽出率が40%→85%に跳ねあがった。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 44,
+        "quote_count": 0,
+        "fetched_at": "2026-07-09T09:33:18.773Z"
+      }
     },
     {
       "id": "2026-06-28",
@@ -28,9 +44,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 59,
+        "impression_count": 61,
         "quote_count": 0,
-        "fetched_at": "2026-07-07T09:35:37.067Z"
+        "fetched_at": "2026-07-09T09:33:18.773Z"
       }
     },
     {
@@ -45,7 +61,7 @@
         "reply_count": 1,
         "impression_count": 39,
         "quote_count": 0,
-        "fetched_at": "2026-07-07T09:35:37.067Z"
+        "fetched_at": "2026-07-09T09:33:18.773Z"
       }
     },
     {
@@ -60,7 +76,7 @@
         "reply_count": 2,
         "impression_count": 40,
         "quote_count": 0,
-        "fetched_at": "2026-07-07T09:35:37.067Z"
+        "fetched_at": "2026-07-09T09:33:18.773Z"
       }
     },
     {
@@ -75,7 +91,7 @@
         "reply_count": 0,
         "impression_count": 35,
         "quote_count": 0,
-        "fetched_at": "2026-07-07T09:35:37.067Z"
+        "fetched_at": "2026-07-09T09:33:18.773Z"
       }
     },
     {
@@ -90,7 +106,7 @@
         "reply_count": 1,
         "impression_count": 21,
         "quote_count": 0,
-        "fetched_at": "2026-07-07T09:35:37.067Z"
+        "fetched_at": "2026-07-09T09:33:18.773Z"
       }
     },
     {
