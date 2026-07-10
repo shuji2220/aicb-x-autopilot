@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548865
+    "last_update_id": 853548866
   },
-  "pending": {
-    "id": "2026-07-09",
-    "status": "pending",
-    "draft_text": "Claudeの無料枠、今月から仕様が変わった。\nRequest数の制限が厳しくなった一方、Context Window使用量が天井撤廃されてる。\nスタートアップはこれを逆手に取れる。\nBatch APIと組み合わせれば、従来の10分の1のコストで運用できる。\n長文処理と非同期タスクが一気に現実的になった。",
-    "created_at": "2026-07-09T10:51:18.386Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-07-09",
+      "posted_at": "2026-07-10T11:20:32.387Z",
+      "tweet_id": "2075540670836772997",
+      "text": "Claudeの無料枠、今月から仕様が変わった。\nRequest数の制限が厳しくなった一方、Context Window使用量が天井撤廃されてる。\nスタートアップはこれを逆手に取れる。\nBatch APIと組み合わせれば、従来の10分の1のコストで運用できる。\n長文処理と非同期タスクが一気に現実的になった。",
+      "revision": 0
+    },
     {
       "id": "2026-07-08",
       "posted_at": "2026-07-08T10:43:44.706Z",
