@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548866
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-07-11",
+    "status": "pending",
+    "draft_text": "Prompt Cachingを本気で運用してるチームは、まだ少数派だ。\nAPI仕様は1年前からあるのに、99%の企業はスルーしてる。\nウチのプロダクトでは、長いシステムプロンプト（8,000トークン）をキャッシュに乗せたら、同じクエリの2回目以降が推論コスト90%削減になった。",
+    "created_at": "2026-07-11T09:25:26.890Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-07-09",
@@ -1449,9 +1455,9 @@
       "ai_tips": 20,
       "cto_thought": 16,
       "industry_trend": 12,
-      "tool_review": 7
+      "tool_review": 8
     },
-    "target_index": 3
+    "target_index": 0
   },
   "analysis_insight": {
     "updated_at": "2026-07-11T07:50:03.570Z",
