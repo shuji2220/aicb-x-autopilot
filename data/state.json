@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548867
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-07-12",
+    "status": "pending",
+    "draft_text": "OpenAI o1が『思考過程を見せる』という話を聞いて、期待値が上がってる開発者は多い。\nただ実装現場では、思考プロセスが長すぎて、レイテンシーが許さない場面がほとんどだ。\nウチで試した限り、複雑な推論が必要な局面は全体の3割程度。",
+    "created_at": "2026-07-12T09:48:08.255Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-07-11",
@@ -1452,13 +1458,13 @@
   },
   "strategy": {
     "category_counts": {
-      "ai_news": 24,
+      "ai_news": 25,
       "ai_tips": 20,
       "cto_thought": 16,
       "industry_trend": 12,
       "tool_review": 8
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-07-11T07:50:03.570Z",
