@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548868
+    "last_update_id": 853548869
   },
-  "pending": {
-    "id": "2026-07-13",
-    "status": "pending",
-    "draft_text": "Claude 3.5のComputer Use機能、デモ映像は派手だが、実装現場の99%は使えない。\n理由はシンプル。UIスクリーンショット解析の精度が、本番環境のDOM複雑性に追いつかない。\nウチで試した限り、Web自動化ならSeleniumの方が安定してる。",
-    "created_at": "2026-07-13T10:57:27.182Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-07-13",
+      "posted_at": "2026-07-13T11:07:49.690Z",
+      "tweet_id": "2076624635437744406",
+      "text": "Claude 3.5のComputer Use機能、デモ映像は派手だが、実装現場の99%は使えない。\n理由はシンプル。UIスクリーンショット解析の精度が、本番環境のDOM複雑性に追いつかない。\nウチで試した限り、Web自動化ならSeleniumの方が安定してる。",
+      "revision": 0
+    },
     {
       "id": "2026-07-12",
       "posted_at": "2026-07-12T10:18:36.089Z",
