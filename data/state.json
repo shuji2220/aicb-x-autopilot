@@ -9,14 +9,30 @@
       "posted_at": "2026-07-12T10:18:36.089Z",
       "tweet_id": "2076249859296764369",
       "text": "OpenAI o1が『思考過程を見せる』という話を聞いて、期待値が上がってる開発者は多い。\nただ実装現場では、思考プロセスが長すぎて、レイテンシーが許さない場面がほとんどだ。\nウチで試した限り、複雑な推論が必要な局面は全体の3割程度。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 2,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 43,
+        "quote_count": 0,
+        "fetched_at": "2026-07-13T09:19:49.905Z"
+      }
     },
     {
       "id": "2026-07-11",
       "posted_at": "2026-07-11T10:15:59.758Z",
       "tweet_id": "2075886815752438089",
       "text": "Prompt Cachingを本気で運用してるチームは、まだ少数派だ。\nAPI仕様は1年前からあるのに、99%の企業はスルーしてる。\nウチのプロダクトでは、長いシステムプロンプト（8,000トークン）をキャッシュに乗せたら、同じクエリの2回目以降が推論コスト90%削減になった。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 33,
+        "quote_count": 0,
+        "fetched_at": "2026-07-13T09:19:49.905Z"
+      }
     },
     {
       "id": "2026-07-09",
@@ -28,9 +44,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 41,
+        "impression_count": 49,
         "quote_count": 0,
-        "fetched_at": "2026-07-11T07:49:54.144Z"
+        "fetched_at": "2026-07-13T09:19:49.905Z"
       }
     },
     {
@@ -43,9 +59,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 1,
-        "impression_count": 42,
+        "impression_count": 44,
         "quote_count": 0,
-        "fetched_at": "2026-07-11T07:49:54.144Z"
+        "fetched_at": "2026-07-13T09:19:49.905Z"
       }
     },
     {
@@ -58,9 +74,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 44,
+        "impression_count": 45,
         "quote_count": 0,
-        "fetched_at": "2026-07-11T07:49:54.144Z"
+        "fetched_at": "2026-07-13T09:19:49.905Z"
       }
     },
     {
@@ -73,9 +89,9 @@
         "like_count": 2,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 61,
+        "impression_count": 62,
         "quote_count": 0,
-        "fetched_at": "2026-07-11T07:49:54.144Z"
+        "fetched_at": "2026-07-13T09:19:49.905Z"
       }
     },
     {
@@ -90,7 +106,7 @@
         "reply_count": 1,
         "impression_count": 39,
         "quote_count": 0,
-        "fetched_at": "2026-07-11T07:49:54.144Z"
+        "fetched_at": "2026-07-13T09:19:49.905Z"
       }
     },
     {
