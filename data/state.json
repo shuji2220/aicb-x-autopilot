@@ -1,15 +1,16 @@
 {
   "telegram": {
-    "last_update_id": 853548869
+    "last_update_id": 853548870
   },
-  "pending": {
-    "id": "2026-07-14",
-    "status": "pending",
-    "draft_text": "Claude無料枠が2026年1月から仕様変わった。\nRequest数は絞られたが、Context Window使用量の上限が事実上なくなった。\nスタートアップはこれを逆手に取れる。\nシステムプロンプト＋RAGで長いコンテキストをキャッシュに乗せれば、Batch APIと組み合わせて月額コストを10分の1に圧縮できる。",
-    "created_at": "2026-07-14T09:55:03.213Z",
-    "revision": 0
-  },
+  "pending": null,
   "history": [
+    {
+      "id": "2026-07-14",
+      "posted_at": "2026-07-15T10:09:19.514Z",
+      "tweet_id": "2077334688461398514",
+      "text": "Claude無料枠が2026年1月から仕様変わった。\nRequest数は絞られたが、Context Window使用量の上限が事実上なくなった。\nスタートアップはこれを逆手に取れる。\nシステムプロンプト＋RAGで長いコンテキストをキャッシュに乗せれば、Batch APIと組み合わせて月額コストを10分の1に圧縮できる。",
+      "revision": 0
+    },
     {
       "id": "2026-07-13",
       "posted_at": "2026-07-13T11:07:49.690Z",
