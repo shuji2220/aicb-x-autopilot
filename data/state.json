@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548871
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-07-18",
+    "status": "pending",
+    "draft_text": "Gemini 2.0が100万トークンを処理できるという話を聞いて、『これで複雑なRAG案件が楽になる』と考えるエンジニアは多い。\n間違いだ。\n本当の課題は、大量トークンを『安く』『速く』処理することじゃなく、『入力データの質を高める』ことだ。",
+    "created_at": "2026-07-18T09:21:23.851Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-07-16",
@@ -1512,13 +1518,13 @@
   },
   "strategy": {
     "category_counts": {
-      "ai_news": 28,
+      "ai_news": 29,
       "ai_tips": 20,
       "cto_thought": 16,
       "industry_trend": 12,
       "tool_review": 8
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-07-11T07:50:03.570Z",
