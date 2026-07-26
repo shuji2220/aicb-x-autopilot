@@ -1616,13 +1616,6 @@
   "dashboard": {
     "snapshots": [
       {
-        "followers_count": 193,
-        "following_count": 340,
-        "tweet_count": 632,
-        "listed_count": 1,
-        "fetched_at": "2026-04-27T00:59:45.880Z"
-      },
-      {
         "followers_count": 197,
         "following_count": 344,
         "tweet_count": 637,
@@ -2244,6 +2237,13 @@
         "tweet_count": 949,
         "listed_count": 1,
         "fetched_at": "2026-07-25T03:23:58.368Z"
+      },
+      {
+        "followers_count": 239,
+        "following_count": 421,
+        "tweet_count": 951,
+        "listed_count": 1,
+        "fetched_at": "2026-07-26T03:37:43.345Z"
       }
     ]
   }
