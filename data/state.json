@@ -15,7 +15,15 @@
       "posted_at": "2026-07-25T09:53:25.957Z",
       "tweet_id": "2080954567575884059",
       "text": "起業家の大半は『良いプロンプト＝魔法の呪文』だと思ってる。\n間違いだ。\nLLMは『指示の順序』『文脈の重み』『トークン効率』に支配されてる。\n同じ内容でも『A→B→C』の順序なら精度95%、『C→A→B』なら50%になる。",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 1,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 30,
+        "quote_count": 0,
+        "fetched_at": "2026-07-27T09:43:34.910Z"
+      }
     },
     {
       "id": "2026-07-20",
@@ -27,9 +35,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 33,
+        "impression_count": 34,
         "quote_count": 0,
-        "fetched_at": "2026-07-25T08:01:40.510Z"
+        "fetched_at": "2026-07-27T09:43:34.910Z"
       }
     },
     {
@@ -44,7 +52,7 @@
         "reply_count": 0,
         "impression_count": 60,
         "quote_count": 0,
-        "fetched_at": "2026-07-25T08:01:40.510Z"
+        "fetched_at": "2026-07-27T09:43:34.910Z"
       }
     },
     {
@@ -59,7 +67,7 @@
         "reply_count": 0,
         "impression_count": 32,
         "quote_count": 0,
-        "fetched_at": "2026-07-25T08:01:40.510Z"
+        "fetched_at": "2026-07-27T09:43:34.910Z"
       }
     },
     {
@@ -74,7 +82,7 @@
         "reply_count": 0,
         "impression_count": 57,
         "quote_count": 0,
-        "fetched_at": "2026-07-25T08:01:40.510Z"
+        "fetched_at": "2026-07-27T09:43:34.910Z"
       }
     },
     {
@@ -89,7 +97,7 @@
         "reply_count": 0,
         "impression_count": 51,
         "quote_count": 0,
-        "fetched_at": "2026-07-25T08:01:40.510Z"
+        "fetched_at": "2026-07-27T09:43:34.910Z"
       }
     },
     {
@@ -104,7 +112,7 @@
         "reply_count": 0,
         "impression_count": 49,
         "quote_count": 0,
-        "fetched_at": "2026-07-25T08:01:40.510Z"
+        "fetched_at": "2026-07-27T09:43:34.910Z"
       }
     },
     {
