@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548876
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-08-02",
+    "status": "pending",
+    "draft_text": "プロンプトで同じ内容でも順序が違うと精度が30%変わる。\n実装現場での体感値だ。\n『システムロール→制約条件→直近の文脈→質問』の順が最高精度。\n逆に『質問→制約→ロール→文脈』で組むと、モデルが混乱する。\nあなたのチームはこの順序を意識して書いてる？",
+    "created_at": "2026-08-02T09:53:09.725Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-07-28",
@@ -1588,12 +1594,12 @@
   "strategy": {
     "category_counts": {
       "ai_news": 30,
-      "ai_tips": 23,
+      "ai_tips": 24,
       "cto_thought": 16,
       "industry_trend": 12,
       "tool_review": 8
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-08-01T08:14:36.509Z",
