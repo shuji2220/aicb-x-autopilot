@@ -15,7 +15,15 @@
       "posted_at": "2026-08-05T10:41:23.907Z",
       "tweet_id": "2084952905065414873",
       "text": "スタートアップの9割が『プロンプトの質＝出力の質』だと思ってる。\n間違いだ。\n実装現場では、同じ内容でも『形式→制約→例示→指示』の順番で書くと精度が40%上がる。\n逆順だと、モデルが最後の指示を見落とす。\nあなたのチームは、プロンプトの『並び順』を設計してますか？",
-      "revision": 0
+      "revision": 0,
+      "metrics": {
+        "like_count": 0,
+        "retweet_count": 0,
+        "reply_count": 0,
+        "impression_count": 23,
+        "quote_count": 0,
+        "fetched_at": "2026-08-07T07:09:34.394Z"
+      }
     },
     {
       "id": "2026-08-02",
@@ -27,9 +35,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 24,
+        "impression_count": 31,
         "quote_count": 0,
-        "fetched_at": "2026-08-05T08:30:00.040Z"
+        "fetched_at": "2026-08-07T07:09:34.394Z"
       }
     },
     {
@@ -42,9 +50,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 19,
+        "impression_count": 25,
         "quote_count": 0,
-        "fetched_at": "2026-08-05T08:30:00.040Z"
+        "fetched_at": "2026-08-07T07:09:34.394Z"
       }
     },
     {
@@ -57,9 +65,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 15,
+        "impression_count": 18,
         "quote_count": 0,
-        "fetched_at": "2026-08-05T08:30:00.040Z"
+        "fetched_at": "2026-08-07T07:09:34.394Z"
       }
     },
     {
@@ -72,9 +80,9 @@
         "like_count": 1,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 36,
+        "impression_count": 38,
         "quote_count": 0,
-        "fetched_at": "2026-08-05T08:30:00.040Z"
+        "fetched_at": "2026-08-07T07:09:34.394Z"
       }
     },
     {
@@ -87,9 +95,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 37,
+        "impression_count": 38,
         "quote_count": 0,
-        "fetched_at": "2026-08-05T08:30:00.040Z"
+        "fetched_at": "2026-08-07T07:09:34.394Z"
       }
     },
     {
@@ -102,9 +110,9 @@
         "like_count": 0,
         "retweet_count": 0,
         "reply_count": 0,
-        "impression_count": 61,
+        "impression_count": 62,
         "quote_count": 0,
-        "fetched_at": "2026-08-05T08:30:00.040Z"
+        "fetched_at": "2026-08-07T07:09:34.394Z"
       }
     },
     {
