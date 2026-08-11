@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548879
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-08-11",
+    "status": "pending",
+    "draft_text": "モデルの性能差は実装では関係ない、というのは嘘だった。\nClaudeをGPT-4oから切り替えた瞬間、推論ループの反復回数が半分になった。\n同じ品質の出力を得るまでの『修正→再生成』サイクルが劇的に短くなる。\nコスト削減じゃなく、開発体験が変わる。\nあなたのチームはこの感覚を体験した？",
+    "created_at": "2026-08-11T08:50:29.980Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-08-06",
@@ -1642,11 +1648,11 @@
     "category_counts": {
       "ai_news": 30,
       "ai_tips": 25,
-      "cto_thought": 17,
+      "cto_thought": 18,
       "industry_trend": 12,
       "tool_review": 8
     },
-    "target_index": 0
+    "target_index": 1
   },
   "analysis_insight": {
     "updated_at": "2026-08-11T07:00:46.743Z",
