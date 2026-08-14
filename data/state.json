@@ -2,7 +2,13 @@
   "telegram": {
     "last_update_id": 853548880
   },
-  "pending": null,
+  "pending": {
+    "id": "2026-08-14",
+    "status": "pending",
+    "draft_text": "LLMの性能比較に時間を費やすチームは、根本を見落としてる。\n実装現場では、同じモデルでも『入力前のデータ正規化』の質で精度が40%変わる。\nGPT-4oとClaudeの差は5%。\nでも入力ノイズを30%削減すれば、精度は35%跳ね上がる。\nあなたのチームはモデル選定に何時間かけてますか？",
+    "created_at": "2026-08-14T09:03:51.296Z",
+    "revision": 0
+  },
   "history": [
     {
       "id": "2026-08-11",
@@ -1649,11 +1655,11 @@
     "category_counts": {
       "ai_news": 30,
       "ai_tips": 25,
-      "cto_thought": 18,
+      "cto_thought": 19,
       "industry_trend": 12,
       "tool_review": 8
     },
-    "target_index": 1
+    "target_index": 2
   },
   "analysis_insight": {
     "updated_at": "2026-08-13T07:21:19.793Z",
