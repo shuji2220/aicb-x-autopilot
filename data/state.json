@@ -1,10 +1,10 @@
 {
   "telegram": {
-    "last_update_id": 853548882
+    "last_update_id": 853548883
   },
   "pending": {
     "id": "2026-08-18",
-    "status": "pending",
+    "status": "failed",
     "draft_text": "AI導入で失敗するチームの9割は、モデルの性能差に目を奪われてる。\n実装現場では、推論の『安定性』と『リトライロジック』の設計が全てを決める。\nGPT-4oとClaudeの精度差は誤差。\nでも出力が不安定な時の『フォールバック設計』を持ってるかどうかで、開発効率は3倍変わる。",
     "created_at": "2026-08-18T08:32:20.391Z",
     "revision": 0
