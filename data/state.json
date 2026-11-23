@@ -1727,13 +1727,6 @@
       {
         "followers_count": 236,
         "following_count": 418,
-        "tweet_count": 1013,
-        "listed_count": 0,
-        "fetched_at": "2026-08-25T01:40:12.009Z"
-      },
-      {
-        "followers_count": 236,
-        "following_count": 418,
         "tweet_count": 1016,
         "listed_count": 0,
         "fetched_at": "2026-08-26T01:45:37.383Z"
@@ -2353,6 +2346,13 @@
         "tweet_count": 1448,
         "listed_count": 0,
         "fetched_at": "2026-11-22T06:15:16.628Z"
+      },
+      {
+        "followers_count": 252,
+        "following_count": 445,
+        "tweet_count": 1450,
+        "listed_count": 0,
+        "fetched_at": "2026-11-23T07:06:21.211Z"
       }
     ]
   }
